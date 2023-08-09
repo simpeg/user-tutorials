@@ -1,0 +1,31 @@
+# Table of Contents
+#
+# Myst will respect:
+# 1. New pages
+#      - file: relative/path/to/page
+# 2. New sections without an associated page
+#      - title: Folder Title
+#        sections: ...
+# 3. New sections with an associated page
+#      - file: relative/path/to/page
+#        sections: ...
+#
+# Note: Titles defined on pages here are not recognized.
+#
+# This spec is based on the JupyterBook table of contents.
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+
+chapters:
+# GRAVITY
+- file: notebooks/gravity_index
+  sections:
+  - file: notebooks\03-gravity\plot_1a_gravity_anomaly
+  - file: notebooks\03-gravity\plot_1b_gravity_gradiometry
+# MAGNETICS
+- file: notebooks/magnetics_index
+  sections:
+  - file: notebooks\04-magnetics\plot_2a_magnetics_induced
+  - file: notebooks\04-magnetics\plot_2b_magnetics_mvi

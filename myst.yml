@@ -1,0 +1,19 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  # title:
+  # description:
+  keywords: []
+  authors: []
+  github: https://github.com/simpeg/user-tutorials
+  # bibliography: []
+site:
+  template: book-theme
+  title: SimPEG User Tutorials
+  thumbnail: https://raw.github.com/simpeg/simpeg/main/docs/images/simpeg-logo.png
+  # logo:
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://mystmd.org/guide
+  domains: []
