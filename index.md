@@ -30,8 +30,8 @@ What can I learn from user tutorials?
 SimPEG user tutorials provide a learning resource beyond a simple set of reproducible examples. The material presented in each tutorial addresses 4 learning objectives: 1) what SimPEG objects represent, 2) creating SimPEG objects, 3) using SimPEG objects, and 4) suitable input parameters. Successful completion of all learning objectives is strongly urged for anyone who wishes to get the most out of SimPEG.
 
 
-```{figure} ./assets/learning_image.png
-:width: 250px
+```{figure} ./assets/learning_image_2.png
+:width: 300px
 :align: center
 ```
 
