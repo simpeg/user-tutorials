@@ -7,8 +7,10 @@ SimPEG user tutorials is the place for those who have [installed SimPEG](https:/
 - **what can I learn from user tutorial?**
 - **how do I access user tutorials?**
 
-:::{important} Important
-To ensure all functionality works as intended within each tutorial, please make sure your version of SimPEG is up to date.
+
+
+:::{caution} Caution
+To ensure all functionality works as intended within each user tutorial, please make sure your version of SimPEG is up to date.
 :::
 
 
@@ -60,5 +62,46 @@ How do I access user tutorials?
 ```{figure} ./assets/download_image.png
 :width: 80px
 :align: center
+```
+
+What tutorials should I start with?
+-----------------------------------
+
+User tutorials cover introductory, intermediate and advanced topics within the SimPEG framework. We advise new users to start with introductory tutorials before working their way towards those that are more advanced. For most geophysical methods (e.g. gravity, magnetics, DC resistivity), there is an introductory level tutorial. At the beginning of each tutorial page, one of the following admonitions is used to state the difficulty level and suggested minimum proficiency with SimPEG. 
+
+
+```{admonition} Introductory notebook
+:class: hint
+This tutorial teaches basic functionality within SimPEG and is a good entry point for new users.
+```
+
+```{admonition} Intermediate notebook
+:class: caution
+This tutorial focusses on intermediate level functionality within SimPEG. Basic functionality within SimPEG is not discussed in detail, as we assume the user is already familiar. 
+```
+
+```{admonition} Advanced notebook
+:class: danger
+This tutorial focusses on advanced functionality within SimPEG. Basic and intermediate level functionality are not discussed in detail, as we assume the user is already an experienced SimPEG user.
+```
+
+What are the computational requirements?
+----------------------------------------
+
+Some notebooks can be run in the background on standard laptops, while others can only be run with the help of cluster computing environments. At the beginning of each tutorial page, one of the following admonitions is used to state the computation requirements for running the notebook.
+
+```{admonition} Light-weight notebook
+:class: hint
+This tutorial requires minimal computational resources and can be executed quickly in the background while other computer processes are running.
+```
+
+```{admonition} Medium-weight notebook
+:class: caution
+Requires moderate computational resources. Run-times may exceed several minutes and require up to 8 GB of available RAM.
+```
+
+```{admonition} Computationally intensive notebook
+:class: danger
+The computational resources required to execute this notebook exceed those provided by standard laptop computers. To execute the notebook, please deploy to a cluster computing environment.
 ```
 
