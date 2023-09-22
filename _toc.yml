@@ -22,10 +22,12 @@ chapters:
 # GRAVITY
 - file: notebooks/gravity_index
   sections:
-  - file: notebooks\03-gravity\plot_1a_gravity_anomaly
-  - file: notebooks\03-gravity\plot_1b_gravity_gradiometry
+  - file: notebooks\03-gravity\fwd_gravity_anomaly_3d
+  - file: notebooks\03-gravity\fwd_gravity_gradiometry_3d
+  - file: notebooks\03-gravity\inv_gravity_anomaly_3d
 # MAGNETICS
 - file: notebooks/magnetics_index
   sections:
-  - file: notebooks\04-magnetics\plot_2a_magnetics_induced
-  - file: notebooks\04-magnetics\plot_2b_magnetics_mvi
+  - file: notebooks\04-magnetics\fwd_magnetics_induced_3d
+  - file: notebooks\04-magnetics\fwd_magnetics_mvi_3d
+  - file: notebooks\04-magnetics\inv_magnetics_induced_3d

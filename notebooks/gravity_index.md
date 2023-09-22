@@ -10,10 +10,10 @@ Gravity anomaly and gravity gradiometry data are simulated using functionality w
 Earth's gravity anomalies ([image source](https://upload.wikimedia.org/wikipedia/commons/1/14/Gravity_anomalies_on_Earth.jpg))
 ```
 
-[Forward simulation of gravity anomaly data on a tensor mesh](03-gravity/plot_1a_gravity_anomaly.ipynb)
+**Content:**
 
-Forward simulation of gravity gradiometry data on a tree mesh
+[Forward Simulation of Gravity Anomaly Data on a Tensor Mesh](03-gravity/fwd_gravity_anomaly_3d)
 
-Least-squares inversion of gravity anomaly data on a tensor mesh
+[Forward Simulation of Gravity Gradiometry Data on a Tree Mesh](03-gravity/fwd_gravity_gradiometry_3d)
 
-Sparse-norm inversion of gravity gradiometry data on a tree mesh
+[Inversion of Gravity Anomaly Data](03-gravity/inv_gravity_anomaly_3d)
