@@ -1,12 +1,21 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # title:
-  # description:
+  title: SimPEG User Tutorials
+  # github: 
+  # description: 
   keywords: []
   authors: []
   github: https://github.com/simpeg/user-tutorials
   # bibliography: []
+  references:
+    python: https://docs.python.org/3/
+    numpy: https://numpy.org/doc/stable/
+    scipy: https://docs.scipy.org/doc/scipy/
+    matplotlib: https://matplotlib.org/stable/
+    discretize: https://discretize.simpeg.xyz/en/main/
+    SimPEG: https://docs.simpeg.xyz/
+    sphinx: https://www.sphinx-doc.org/en/master/
 site:
   template: book-theme
   title: SimPEG User Tutorials
@@ -17,3 +26,4 @@ site:
     - title: Learn More
       url: https://mystmd.org/guide
   domains: []
+
