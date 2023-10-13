@@ -12,7 +12,7 @@ Earth's gravity anomalies ([image source](https://upload.wikimedia.org/wikipedia
 
 **Content:**
 
-[Forward Simulation of Gravity Anomaly Data on a Tensor Mesh](03-gravity/fwd_gravity_anomaly_3d)
+![](../assets/icon_introductory.png) ![](../assets/icon_lightweight.png) [Forward Simulation of Gravity Anomaly Data on a Tensor Mesh](03-gravity/fwd_gravity_anomaly_3d)
 
 [Forward Simulation of Gravity Gradiometry Data on a Tree Mesh](03-gravity/fwd_gravity_gradiometry_3d)
 
