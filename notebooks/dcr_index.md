@@ -10,6 +10,9 @@ Direct current resistivity data are simulated using functionality within the ``S
 Schematic illustrating the physics of the DC/IP method ([image source](https://em.geosci.xyz/content/geophysical_surveys/ip/physics.html))
 ```
 
-**Content:**
+## Tutorial Notebooks
 
 [Forward Simulation 3D DC Resistivity Data on a Tree Mesh](05-dcr/fwd_dcr_3d)
+<br />
+![](../assets/icon_introductory_small.png) ![](../assets/icon_lightweight_small.png)
+<br />
