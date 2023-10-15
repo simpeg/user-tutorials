@@ -34,4 +34,6 @@ chapters:
 # DC RESISTIVITY
 - file: notebooks/dcr_index
   sections:
+  - file: notebooks\05-dcr\fwd_dcr_1d
+  - file: notebooks\05-dcr\fwd_dcr_2d
   - file: notebooks\05-dcr\fwd_dcr_3d
