@@ -17,7 +17,7 @@ Schematic illustrating the physics of the DC/IP method ([image source](https://e
 ![](../assets/icon_introductory_small.png) ![](../assets/icon_lightweight_small.png)
 <br />
 
-[Forward Simulation 3D DC Resistivity Data on a Tree Mesh](05-dcr/fwd_dcr_2d)
+[Forward Simulation 2.5D DC Resistivity Data on a Tree Mesh](05-dcr/fwd_dcr_2d)
 <br />
 ![](../assets/icon_introductory_small.png) ![](../assets/icon_lightweight_small.png)
 <br />
