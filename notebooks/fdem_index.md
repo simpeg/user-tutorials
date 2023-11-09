@@ -4,16 +4,16 @@ Frequency-Domain Electromagnetics
 In this chapter, we publish code comparisons and validations for frequency-domain electromagnetic modeling packages.
 In SimPEG, the *SimPEG.electromagnetics.frequency_domain* module is used for modeling frequency-domain data.
 
-```{figure} ../assets/section_images/fem_physics.PNG
+```{figure} ../assets/fem_physics.png
 :width: 800px
 :align: center
 
 Schematic illustrating the physics of the FEM method for an inductive source.
 ```
 
-**Content:**
+## Tutorial Notebooks
 
-* [Forward simulation of inductive source FEM data for a 1D layered Earth (conductive only)](./fdem/layered_earth_conductive_fwd/code_comparison.ipynb)
-* [Forward simulation of inductive source FEM data for a 1D layered Earth (conductive and susceptible)](./fdem/layered_earth_susceptible_fwd/code_comparison.ipynb)
-* [Forward simulation of inductive source FEM data for a conductive sphere in a vacuum](./fdem/sphere_vacuum_conductive_fwd/code_comparison.ipynb)
-* [Forward simulation of inductive source FEM data for a conductive and susceptible sphere in a vacuum](./fdem/sphere_vacuum_susceptible_fwd/code_comparison.ipynb)
+[Forward Simulation of Frequency Domain EM Data for a 1D Sounding](07-fdem/fwd_fdem_1d)
+<br />
+![](../assets/icon_introductory_small.png) ![](../assets/icon_lightweight_small.png)
+<br />
