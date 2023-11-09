@@ -42,3 +42,11 @@ chapters:
   sections:
   - file: notebooks\06-ip\fwd_dcip_2d
   - file: notebooks\06-ip\fwd_dcip_3d
+# FDEM
+- file: notebooks/fdem_index
+  sections:
+  - file: notebooks\07-fdem\fwd_fdem_1d
+# TDEM
+- file: notebooks/tdem_index
+  sections:
+  - file: notebooks\08-tdem\fwd_tdem_1d
