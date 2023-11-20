@@ -37,6 +37,7 @@ chapters:
   - file: notebooks\05-dcr\fwd_dcr_1d
   - file: notebooks\05-dcr\fwd_dcr_2d
   - file: notebooks\05-dcr\fwd_dcr_3d
+  - file: notebooks\05-dcr\inv_dcr_1d
 # INDUCED POLARIZATION
 - file: notebooks/ip_index
   sections:
@@ -46,7 +47,9 @@ chapters:
 - file: notebooks/fdem_index
   sections:
   - file: notebooks\07-fdem\fwd_fdem_1d
+  - file: notebooks\07-fdem\inv_fdem_1d
 # TDEM
 - file: notebooks/tdem_index
   sections:
   - file: notebooks\08-tdem\fwd_tdem_1d
+  - file: notebooks\08-tdem\inv_tdem_1d
