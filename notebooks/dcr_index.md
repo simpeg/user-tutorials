@@ -14,15 +14,15 @@ Schematic illustrating the physics of the DC/IP method ([image source](https://e
 
 [Forward Simulation of DC Resistivity Data for a 1D Sounding](05-dcr/fwd_dcr_1d)
 <br />
-![](../assets/webstie_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
 <br />
 
 [Forward Simulation 2.5D DC Resistivity Data on a Tree Mesh](05-dcr/fwd_dcr_2d)
 <br />
-![](../assets/webstie_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
 <br />
 
 [Forward Simulation 3D DC Resistivity Data on a Tree Mesh](05-dcr/fwd_dcr_3d)
 <br />
-![](../assets/webstie_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
 <br />
