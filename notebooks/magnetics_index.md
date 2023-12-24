@@ -15,15 +15,15 @@ Global scale magnetic anomalies over Africa ([image source](https://upload.wikim
 
 [Forward Simulation of Total Magnetic Intensity Data on a Tensor Mesh](04-magnetics/fwd_magnetics_induced_3d)
 <br />
-![](../assets/icon_introductory_small.png) ![](../assets/icon_lightweight_small.png)
+![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
 <br />
 
 [Forward Simulation of Magnetic Gradiometry Data on a Tree Mesh](04-magnetics/fwd_magnetics_mvi_3d)
 <br />
-![](../assets/icon_introductory_small.png) ![](../assets/icon_lightweight_small.png)
+![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
 <br />
 
 [Inversion of Total Magnetic Intensity Data to Recover a Susceptibility Model](04-magnetics/inv_magnetics_induced_3d)
 <br />
-![](../assets/icon_intermediate_small.png) ![](../assets/icon_lightweight_small.png)
+![](../assets/website_images/icon_intermediate_small.png) ![](../assets/website_images/icon_lightweight_small.png)
 <br />

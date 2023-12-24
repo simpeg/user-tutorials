@@ -20,7 +20,7 @@ What are user tutorials?
 The SimPEG user tutorials are a library of [Jupyter Notebooks](https://jupyter.org/) that have been published as a website using [MyST](https://mystmd.org/). Each webpage corresponds to a Jupyter notebook where SimPEG has been used to simulate or invert geophysical data for a specific application. In addition to providing the code used to produce computational results, we add [Markdown](https://www.markdownguide.org/) text to thoroughly explain each step. By publishing our tutorials using MyST, users have the ability read, download, run and alter any tutorial. Our aim is to make learning SimPEG as painless as possible and ensure efficacy amongst our users.
 
 
-```{figure} ./assets/title_image.png
+```{figure} ./assets/website_images/title_image.png
 :width: 450px
 :align: center
 ```
@@ -32,7 +32,7 @@ What can I learn from user tutorials?
 SimPEG user tutorials provide a learning resource beyond a simple set of reproducible examples. The material presented in each tutorial addresses 4 learning objectives: 1) what SimPEG objects represent, 2) creating SimPEG objects, 3) using SimPEG objects, and 4) suitable input parameters. Successful completion of all learning objectives is strongly urged for anyone who wishes to get the most out of SimPEG.
 
 
-```{figure} ./assets/learning_image_2.png
+```{figure} ./assets/website_images/learning_image_2.png
 :width: 300px
 :align: center
 ```
@@ -59,7 +59,7 @@ How do I access user tutorials?
 
 **Downloading:** To download the Jupyter notebook used to generate the tutorial, simply scroll to the top of the page and click the download icon (pictured below) in the top-right corner.
 
-```{figure} ./assets/download_image.png
+```{figure} ./assets/website_images/download_image.png
 :width: 80px
 :align: center
 ```

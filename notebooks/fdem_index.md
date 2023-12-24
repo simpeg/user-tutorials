@@ -15,5 +15,5 @@ Schematic illustrating the physics of the FEM method for an inductive source.
 
 [Forward Simulation of Frequency Domain EM Data for a 1D Sounding](07-fdem/fwd_fdem_1d)
 <br />
-![](../assets/icon_introductory_small.png) ![](../assets/icon_lightweight_small.png)
+![](../assets/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
 <br />
