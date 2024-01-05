@@ -12,16 +12,11 @@ Earth's gravity anomalies ([image source](https://upload.wikimedia.org/wikipedia
 
 ## Tutorial Notebooks
 
-[Forward Simulation of Gravity Anomaly Data on a Tensor Mesh](03-gravity/fwd_gravity_anomaly_3d)
-<br />
-![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+[3D Forward Simulation of Gravity Anomaly Data](03-gravity/fwd_gravity_anomaly_3d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[Forward Simulation of Gravity Gradiometry Data on a Tree Mesh](03-gravity/fwd_gravity_gradiometry_3d)
-<br />
-![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+[3D Forward Simulation of Gravity Gradiometry](03-gravity/fwd_gravity_gradiometry_3d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[Inversion of Gravity Anomaly Data](03-gravity/inv_gravity_anomaly_3d)
+[3D Inversion of Gravity Anomaly Data](03-gravity/inv_gravity_anomaly_3d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />
-![](../assets/website_images/icon_intermediate_small.png) ![](../assets/website_images/icon_lightweight_small.png)

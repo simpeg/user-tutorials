@@ -1,5 +1,5 @@
 Frequency-Domain Electromagnetics
-=================================
+==============================
 
 In this chapter, we publish code comparisons and validations for frequency-domain electromagnetic modeling packages.
 In SimPEG, the *SimPEG.electromagnetics.frequency_domain* module is used for modeling frequency-domain data.
@@ -13,12 +13,8 @@ Schematic illustrating the physics of the FEM method for an inductive source.
 
 ## Tutorial Notebooks
 
-[Forward Simulation of Frequency Domain EM Data for a 1D Sounding](07-fdem/fwd_fdem_1d)
-<br />
-![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+[1D Forward Simulation for a Single Sounding](07-fdem/fwd_fdem_1d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[1D Inversion of Frequency-Domain EM Data for a Single Sounding](07-fdem/inv_fdem_1d)
-<br />
-![](../assets/website_images/icon_intermediate_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+[1D Inversion for a Single Sounding](07-fdem/inv_fdem_1d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />

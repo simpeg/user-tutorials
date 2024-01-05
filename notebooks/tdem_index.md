@@ -13,12 +13,8 @@ Schematic illustrating the physics of the TEM method for an inductive source.
 
 ## Tutorial Notebooks
 
-[Forward Simulation of Time Domain EM Data for a 1D Sounding](08-tdem/fwd_tdem_1d)
-<br />
-![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+[1D Forward Simulation for a Single Sounding](08-tdem/fwd_tdem_1d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[1D Inversion of Time-Domain EM Data for a Single Sounding](08-tdem/inv_tdem_1d)
-<br />
-![](../assets/website_images/icon_intermediate_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+[1D Inversion for a Single Sounding](08-tdem/inv_tdem_1d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />

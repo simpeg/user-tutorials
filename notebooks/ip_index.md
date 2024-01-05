@@ -12,12 +12,8 @@ Schematic illustrating the physics of the DC/IP method ([image source](https://e
 
 ## Tutorial Notebooks
 
-[Forward Simulation 2.5D DC Resistivity and Induced Polarization Data on a Tree Mesh](06-ip/fwd_dcip_2d)
-<br />
-![](../assets/website_images/icon_intermediate_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+[2.5D Forward Simulation](06-ip/fwd_dcip_2d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />
 
-[Forward Simulation 3D DC Resistivity and Induced Polarization Data on a Tree Mesh](06-ip/fwd_dcip_3d)
-<br />
-![](../assets/website_images/icon_intermediate_small.png) ![](../assets/website_images/icon_moderate_small.png)
+[3D Forward Simulation](06-ip/fwd_dcip_3d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />

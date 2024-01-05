@@ -12,33 +12,22 @@ Schematic illustrating the physics of the DC/IP method ([image source](https://e
 
 ## Tutorial Notebooks
 
-[Forward Simulation of DC Resistivity Data for a 1D Sounding](05-dcr/fwd_dcr_1d)
-<br />
-![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+
+[1D Forward Simulation for a Single Sounding](05-dcr/fwd_dcr_1d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[Forward Simulation 2.5D DC Resistivity Data on a Tree Mesh](05-dcr/fwd_dcr_2d)
-<br />
-![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+[2.5D Forward Simulation](05-dcr/fwd_dcr_2d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[Forward Simulation 3D DC Resistivity Data on a Tree Mesh](05-dcr/fwd_dcr_3d)
-<br />
-![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+[3D Forward Simulation](05-dcr/fwd_dcr_3d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[1D Inversion of DC Resistivity Data to Recover a Log-Resistivity or Parametric Model](05-dcr/inv_dcr_1d)
-<br />
-![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+[1D Inversion for a Single Sounding](05-dcr/inv_dcr_1d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />
 
-[2.5D Inversion of DC Resistivity Data on a Tree Mesh](05-dcr/inv_dcr_2d)
-<br />
-![](../assets/website_images/icon_intermediate_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+[2.5D DC Resistivity Inversion](05-dcr/inv_dcr_2d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
 <br />
 
-[3D Inversion of DC Resistivity Data on a Tree Mesh](05-dcr/inv_dcr_3d)
-<br />
-![](../assets/website_images/icon_intermediate_small.png) ![](../assets/website_images/icon_moderate_small.png)
+[3D DC Resistivity Inversion](05-dcr/inv_dcr_3d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
 <br />
 
