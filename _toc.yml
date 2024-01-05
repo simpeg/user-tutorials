@@ -38,6 +38,8 @@ chapters:
   - file: notebooks/05-dcr/fwd_dcr_2d
   - file: notebooks/05-dcr/fwd_dcr_3d
   - file: notebooks/05-dcr/inv_dcr_1d
+  - file: notebooks/05-dcr/inv_dcr_2d
+  - file: notebooks/05-dcr/inv_dcr_3d
 # INDUCED POLARIZATION
 - file: notebooks/ip_index
   sections:

@@ -26,3 +26,19 @@ Schematic illustrating the physics of the DC/IP method ([image source](https://e
 <br />
 ![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
 <br />
+
+[1D Inversion of DC Resistivity Data to Recover a Log-Resistivity or Parametric Model](05-dcr/inv_dcr_1d)
+<br />
+![](../assets/website_images/icon_introductory_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+<br />
+
+[2.5D Inversion of DC Resistivity Data on a Tree Mesh](05-dcr/inv_dcr_2d)
+<br />
+![](../assets/website_images/icon_intermediate_small.png) ![](../assets/website_images/icon_lightweight_small.png)
+<br />
+
+[3D Inversion of DC Resistivity Data on a Tree Mesh](05-dcr/inv_dcr_3d)
+<br />
+![](../assets/website_images/icon_intermediate_small.png) ![](../assets/website_images/icon_moderate_small.png)
+<br />
+
