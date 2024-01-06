@@ -15,5 +15,5 @@ Schematic illustrating the physics of the DC/IP method ([image source](https://e
 [2.5D Forward Simulation](06-ip/fwd_dcip_2d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />
 
-[3D Forward Simulation](06-ip/fwd_dcip_3d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
+[3D Forward Simulation](06-ip/fwd_dcip_3d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
 <br />

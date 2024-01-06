@@ -19,7 +19,7 @@ Schematic illustrating the physics of the DC/IP method ([image source](https://e
 [2.5D Forward Simulation](05-dcr/fwd_dcr_2d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[3D Forward Simulation](05-dcr/fwd_dcr_3d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
+[3D Forward Simulation](05-dcr/fwd_dcr_3d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
 <br />
 
 [1D Inversion for a Single Sounding](05-dcr/inv_dcr_1d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
