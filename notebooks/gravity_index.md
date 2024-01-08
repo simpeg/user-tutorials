@@ -15,7 +15,7 @@ Earth's gravity anomalies ([image source](https://upload.wikimedia.org/wikipedia
 [3D Forward Simulation of Gravity Anomaly Data](03-gravity/fwd_gravity_anomaly_3d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[3D Forward Simulation of Gravity Gradiometry](03-gravity/fwd_gravity_gradiometry_3d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
+[3D Forward Simulation of Gravity Gradiometry Data](03-gravity/fwd_gravity_gradiometry_3d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
 [3D Inversion of Gravity Anomaly Data](03-gravity/inv_gravity_anomaly_3d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
