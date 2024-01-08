@@ -26,4 +26,6 @@ site:
     - title: Learn More
       url: https://mystmd.org/guide
   domains: []
-
+  # Add Plausible analytics
+  options:
+    analytics_plausible: simpeg.xyz
