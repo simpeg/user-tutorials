@@ -31,12 +31,8 @@ jobs:
 
       - name: Build website as static HTML
         run: |
-          echo "Base url: " $BASE_URL
+          echo "Building MyST website using BASE_URL=" $BASE_URL
           myst build --html
-          echo "-----------------------"
-          echo "Printing the index.html"
-          echo "-----------------------"
-          cat _build/html/index.html
         env:
           BASE_URL: /${{ github.event.repository.name }}
 
