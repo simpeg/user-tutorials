@@ -31,9 +31,14 @@ jobs:
 
       - name: Build website as static HTML
         run: |
+          echo "Base url: " $BASE_URL
           myst build --html
+          echo "-----------------------"
+          echo "Printing the index.html"
+          echo "-----------------------"
+          cat _build/html/index.html
         env:
-          BASE_URL: "/${{ github.events.repository.name }}"
+          BASE_URL: /${{ github.events.repository.name }}
 
       # Store the website as a build artifact so we can deploy it later
       - name: Upload HTML website as an artifact
