@@ -12,5 +12,5 @@ Le Petit Prince, drawing # 1 ([image source](https://gutenberg.net.au/ebooks03/0
 
 ## Tutorial Notebooks
 
-[Sensitivity analysis 2D DC Resistivity](xx-dc2d/dc2d_sens) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
+[Sensitivity analysis 2D DC Resistivity](xx-dc2d/dc2d_sens) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />
