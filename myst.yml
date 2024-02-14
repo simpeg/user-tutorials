@@ -15,6 +15,7 @@ project:
     matplotlib: https://matplotlib.org/stable/
     discretize: https://discretize.simpeg.xyz/en/main/
     SimPEG: https://docs.simpeg.xyz/
+    geoana: https://geoana.simpeg.xyz/
     sphinx: https://www.sphinx-doc.org/en/master/
 site:
   template: book-theme
