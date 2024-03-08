@@ -59,3 +59,7 @@ chapters:
   - file: notebooks/08-tdem/fwd_tdem_fundamentals
   - file: notebooks/08-tdem/fwd_utem_3d
   - file: notebooks/08-tdem/inv_tdem_1d
+# uran
+- file: notebooks/uran_index
+  sections:
+  - file: notebooks/xx-dc2d/dc2d_sens
