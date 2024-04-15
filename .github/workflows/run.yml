@@ -1,0 +1,32 @@
+name: Rerun the notebooks
+
+on:
+  # Run this action manually
+  workflow_dispatch:
+
+jobs:
+  run-notebooks:
+    runs-on: ubuntu-latest
+    env:
+      PYTHON: "3.10"
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Miniconda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: ${{ env.PYTHON }}
+
+      - name: Create environment
+        run:
+          conda env create -f environment.yml
+
+      - name: List installed packages
+        run: conda list
+
+      - name: Run notebook
+        run:
+          jupyter-nbconvert --execute --to notebook --inplace --allow-errors --ExecutePreprocessor.kernel_name=python3 notebooks/03-gravity/*.ipynb
