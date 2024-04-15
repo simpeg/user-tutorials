@@ -1,7 +1,11 @@
 name: Rerun the notebooks
 
 on:
-  # Run this action manually
+  pull_request:
+  push:
+    branches:
+      - main
+  # Run this action manually (this file needs to be in the default branch)
   workflow_dispatch
 
 jobs:
