@@ -6,7 +6,7 @@ on:
     branches:
       - main
   # Run this action manually (this file needs to be in the default branch)
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   run-notebooks:
