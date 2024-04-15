@@ -2,7 +2,7 @@ name: Rerun the notebooks
 
 on:
   # Run this action manually
-  workflow_dispatch:
+  workflow_dispatch
 
 jobs:
   run-notebooks:
