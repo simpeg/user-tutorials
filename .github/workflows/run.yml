@@ -28,13 +28,14 @@ jobs:
         with:
           auto-update-conda: true
           python-version: ${{ env.PYTHON }}
-
-      - name: Create environment
-        run:
-          conda env create -f environment.yml
+          activate-environment: simpeg-user-tutorial
+          environment-file: environment.yml
+          auto-activate-base: false
 
       - name: List installed packages
-        run: conda list
+        run: |
+          conda info
+          conda list
 
       - name: Run notebook
         run:
