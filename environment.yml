@@ -1,8 +1,13 @@
-name: user-tutorials
+name: simpeg-user-tutorials
 channels:
   - conda-forge
 dependencies:
   - python=3.10.*
-  - pip
+  # Myst requirements
   - nodejs>=20,<21
   - mystmd
+  # Notebook requirements
+  - jupyter
+  - SimPEG==0.20.*
+  - discretize==0.10.*
+  - pymatsolver
