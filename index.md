@@ -10,7 +10,8 @@ SimPEG user tutorials is the place for those who have [installed SimPEG](https:/
 
 
 :::{caution} Caution
-To ensure all functionality works as intended within each user tutorial, please make sure your version of SimPEG is up to date.
+These user tutorials are meant to be run with SimPEG v0.20. Please, make sure
+you have this version installed.
 :::
 
 
