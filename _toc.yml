@@ -43,10 +43,10 @@ chapters:
 # INDUCED POLARIZATION
 - file: notebooks/ip_index
   sections:
-  - file: notebooks/06-ip/fwd_dcip_2d
-  - file: notebooks/06-ip/fwd_dcip_3d
-  - file: notebooks/06-ip/inv_dcip_2d
-  - file: notebooks/06-ip/inv_dcip_3d
+  - file: notebooks/06-ip/fwd_ip_2d
+  - file: notebooks/06-ip/fwd_ip_3d
+  - file: notebooks/06-ip/inv_ip_2d
+  - file: notebooks/06-ip/inv_ip_3d
 # FDEM
 - file: notebooks/fdem_index
   sections:
@@ -56,4 +56,6 @@ chapters:
 - file: notebooks/tdem_index
   sections:
   - file: notebooks/08-tdem/fwd_tdem_1d
+  - file: notebooks/08-tdem/fwd_tdem_fundamentals
+  - file: notebooks/08-tdem/fwd_utem_3d
   - file: notebooks/08-tdem/inv_tdem_1d

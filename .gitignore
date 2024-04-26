@@ -155,6 +155,7 @@ cython_debug/
 # Tutorial data file
 notebooks/**/*.txt
 notebooks/**/*.obs
+notebooks/**/*.xyz
 notebooks/**/*.gz
 
 # PyCharm
