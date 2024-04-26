@@ -94,13 +94,13 @@ jupyter nbconvert --to notebook --execute --inplace notebook.ipynb
 
 To rerun all notebooks, use:
 
-```bash
-jupyter nbconvert --to notebook --execute --inplace **/*.ipynb
-```
-
 > [!CAUTION]
 > Rerunning all notebooks is a computationally intensive task. Some notebooks
 > require significant amount of memory to allocate large sensitivity matrices.
+
+```bash
+jupyter nbconvert --to notebook --execute --inplace **/*.ipynb
+```
 
 
 [install-mystmd]: https://mystmd.org/guide/quickstart
