@@ -2,14 +2,17 @@
 version: 1
 project:
   title: SimPEG User Tutorials
-  # github:
-  # description:
-  keywords: []
+  github: https://github.com/simpeg/user-tutorials
+  description: SimPEG user tutorials
+  keywords:
+    - geophysics
+    - inversions
+    - python
+    - open-source
   authors:
       - name: Devin Cowan
         affiliations:
           - University of British Columbia
-  github: https://github.com/simpeg/user-tutorials
   # bibliography: []
   references:
     python: https://docs.python.org/3/
@@ -20,6 +23,8 @@ project:
     SimPEG: https://docs.simpeg.xyz/
     geoana: https://geoana.simpeg.xyz/
     sphinx: https://www.sphinx-doc.org/en/master/
+  exclude:
+    - README.md
 site:
   template: book-theme
   title: SimPEG User Tutorials
