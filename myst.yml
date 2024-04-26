@@ -2,6 +2,7 @@
 version: 1
 project:
   title: SimPEG User Tutorials
+  subject: SimPEG User Tutorials
   github: https://github.com/simpeg/user-tutorials
   description: SimPEG user tutorials
   keywords:
