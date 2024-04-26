@@ -30,7 +30,6 @@ site:
   template: book-theme
   title: SimPEG User Tutorials
   thumbnail: https://raw.github.com/simpeg/simpeg/main/docs/images/simpeg-logo.png
-  logo: images/simpeg-logo.png
   nav:
     - title: SimPEG website
       url: https://simpeg.xyz
@@ -43,3 +42,5 @@ site:
   # Add Plausible analytics
   options:
     analytics_plausible: simpeg.xyz
+    logo: images/simpeg-logo.png
+    logo_text: SimPEG
