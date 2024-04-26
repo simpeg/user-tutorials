@@ -21,11 +21,8 @@ will take some time.
 
 Here you'll find instructions to:
 
-- Build and the website locally
-- Rerun every notebook in the repo
-
-### Clone this repository
-
+- [Build and the website locally](#build-and-serve-the-website-locally)
+- [Rerun notebooks in the repo](#rerun-notebooks)
 
 ### Build and serve the website locally
 
