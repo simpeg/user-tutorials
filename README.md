@@ -9,9 +9,13 @@ Some trouble shooting items for continued development
 
 ## License
 
-All code, text and figures are licensed under a
+All text and figures are licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by], except where
 explicitly expressed.
+A copy of this license is provided in [LICENSE-CC-BY](LICENSE-CC-BY).
+
+All code in this repository is free software: you can redistribute it
+and/or modify it under the terms of the MIT License.
 A copy of this license is provided in [LICENSE](LICENSE).
 
 [![CC BY 4.0][cc-by-image]][cc-by]
