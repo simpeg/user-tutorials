@@ -30,7 +30,7 @@ site:
   template: book-theme
   title: SimPEG User Tutorials
   thumbnail: https://raw.github.com/simpeg/simpeg/main/docs/images/simpeg-logo.png
-  # logo:
+  logo: images/simpeg-logo.png
   nav: []
   actions:
     - title: Learn More
