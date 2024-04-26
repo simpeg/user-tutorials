@@ -31,10 +31,12 @@ site:
   title: SimPEG User Tutorials
   thumbnail: https://raw.github.com/simpeg/simpeg/main/docs/images/simpeg-logo.png
   nav:
-    - title: SimPEG website
-      url: https://simpeg.xyz
-    - title: SimPEG Documentation
-      url: https://docs.simpeg.xyz
+    - title: SimPEG
+      children:
+        - title: Project website
+          url: https://simpeg.xyz
+        - title: Documentation
+          url: https://docs.simpeg.xyz
   actions:
     - title: Learn More
       url: https://mystmd.org/guide
