@@ -2,10 +2,13 @@
 version: 1
 project:
   title: SimPEG User Tutorials
-  # github: 
-  # description: 
+  # github:
+  # description:
   keywords: []
-  authors: []
+  authors:
+      - name: Devin Cowan
+        affiliations:
+          - University of British Columbia
   github: https://github.com/simpeg/user-tutorials
   # bibliography: []
   references:
