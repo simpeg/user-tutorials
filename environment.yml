@@ -8,6 +8,7 @@ dependencies:
   - mystmd
   # Notebook requirements
   - jupyter
+  - nbconvert
   - SimPEG==0.20.*
   - discretize==0.10.*
   - pymatsolver
