@@ -12,8 +12,8 @@ The SimPEG User Tutorials were created using [Myst][mystmd.org]. Myst is
 capable of building the website from content stored in [Jupyter
 Notebooks][jupyter].
 
-We can either build the website from the current Jupyter Notebooks, which
-can be done in a few seconds with very slim resource requirements.
+We can build the website from the current content in the Jupyter Notebooks.
+This can be done in a few seconds with very slim resource requirements.
 
 Rerunning the notebooks is a more intensive task that will require significant
 amount of memory (specially for the computationally intensive notebooks) and it
