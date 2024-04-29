@@ -98,6 +98,11 @@ To rerun all notebooks, use:
 > Rerunning all notebooks is a computationally intensive task. Some notebooks
 > require significant amount of memory to allocate large sensitivity matrices.
 
+> [!HINT]
+> If you are using bash as your shell, then make sure to run `shopt -s
+> globstar` to enable the `globstar` feature that allows the use of `**` for
+> filename expansion.
+
 ```bash
 jupyter nbconvert --to notebook --execute --inplace **/*.ipynb
 ```
