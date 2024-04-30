@@ -14,6 +14,9 @@ project:
       - name: Devin Cowan
         affiliations:
           - University of British Columbia
+      - name: Santiago Soler
+        affiliations:
+          - University of British Columbia
   # bibliography: []
   references:
     python: https://docs.python.org/3/
