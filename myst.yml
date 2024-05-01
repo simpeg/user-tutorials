@@ -2,8 +2,11 @@
 version: 1
 project:
   title: SimPEG User Tutorials
-  # github: 
-  # description: 
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  # github:
+  # description:
   keywords: []
   authors: []
   github: https://github.com/simpeg/user-tutorials
