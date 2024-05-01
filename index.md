@@ -10,7 +10,7 @@ SimPEG user tutorials is the place for those who have [installed SimPEG](https:/
 
 
 :::{caution} Caution
-These user tutorials are meant to be run with SimPEG v0.20. Please, make sure
+These user tutorials are meant to be run with SimPEG v0.21. Please, make sure
 you have this version installed.
 :::
 
@@ -38,7 +38,7 @@ SimPEG user tutorials provide a learning resource beyond a simple set of reprodu
 :align: center
 ```
 
-**1. What SimPEG objects represent:** All of the components required to perform forward simulations and inversions with SimPEG (e.g. transmitters, receivers, meshes, regularizations) are defined as objects within the SimPEG framework. When defining new objects within each tutorial, we aim to provide some detail as to what component of the forward simulation or inversion was created. 
+**1. What SimPEG objects represent:** All of the components required to perform forward simulations and inversions with SimPEG (e.g. transmitters, receivers, meshes, regularizations) are defined as objects within the SimPEG framework. When defining new objects within each tutorial, we aim to provide some detail as to what component of the forward simulation or inversion was created.
 
 **2. Creating objects in SimPEG:** A multitude of required and optional input arguments are set when creating objects within SimPEG. The proper syntax for setting input arguments is provided. The user will also learn the order in which objects are generally created for standard forward modeling and inversion.
 
@@ -68,7 +68,7 @@ How do I access user tutorials?
 What tutorials should I start with?
 -----------------------------------
 
-User tutorials cover introductory, intermediate and advanced topics within the SimPEG framework. We advise new users to start with introductory tutorials before working their way towards those that are more advanced. For most geophysical methods (e.g. gravity, magnetics, DC resistivity), there is an introductory level tutorial. At the beginning of each tutorial page, one of the following admonitions is used to state the difficulty level and suggested minimum proficiency with SimPEG. 
+User tutorials cover introductory, intermediate and advanced topics within the SimPEG framework. We advise new users to start with introductory tutorials before working their way towards those that are more advanced. For most geophysical methods (e.g. gravity, magnetics, DC resistivity), there is an introductory level tutorial. At the beginning of each tutorial page, one of the following admonitions is used to state the difficulty level and suggested minimum proficiency with SimPEG.
 
 
 ```{admonition} Introductory notebook
@@ -78,7 +78,7 @@ This tutorial teaches basic functionality within SimPEG and is a good entry poin
 
 ```{admonition} Intermediate notebook
 :class: caution
-This tutorial focusses on intermediate level functionality within SimPEG. Basic functionality within SimPEG is not discussed in detail, as we assume the user is already familiar. 
+This tutorial focusses on intermediate level functionality within SimPEG. Basic functionality within SimPEG is not discussed in detail, as we assume the user is already familiar.
 ```
 
 ```{admonition} Advanced notebook
