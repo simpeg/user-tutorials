@@ -98,6 +98,11 @@ To rerun all notebooks, use:
 > Rerunning all notebooks is a computationally intensive task. Some notebooks
 > require significant amount of memory to allocate large sensitivity matrices.
 
+> [!IMPORTANT]
+> If you are using bash as your shell, make sure to run `shopt -s
+> globstar` to enable the `globstar` feature that allows the use of `**` for
+> filename expansion.
+
 ```bash
 jupyter nbconvert --to notebook --execute --inplace **/*.ipynb
 ```
@@ -106,3 +111,20 @@ jupyter nbconvert --to notebook --execute --inplace **/*.ipynb
 [install-mystmd]: https://mystmd.org/guide/quickstart
 [jupyter]: https://jupyter.org
 [mystmd.org]: https://mystmd.org
+
+
+## License
+
+All text and figures are licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by], except where
+explicitly expressed.
+A copy of this license is provided in [LICENSE-CC-BY](LICENSE-CC-BY).
+
+All code in this repository is free software: you can redistribute it
+and/or modify it under the terms of the MIT License.
+A copy of this license is provided in [LICENSE](LICENSE).
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
