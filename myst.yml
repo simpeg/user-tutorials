@@ -2,14 +2,24 @@
 version: 1
 project:
   title: SimPEG User Tutorials
+  subject: SimPEG User Tutorials
+  description: SimPEG user tutorials
   license:
     content: CC-BY-4.0
     code: MIT
-  # github:
-  # description:
-  keywords: []
-  authors: []
   github: https://github.com/simpeg/user-tutorials
+  keywords:
+    - geophysics
+    - inversions
+    - python
+    - open-source
+  authors:
+      - name: Devin Cowan
+        affiliations:
+          - University of British Columbia
+      - name: Santiago Soler
+        affiliations:
+          - University of British Columbia
   # bibliography: []
   references:
     python: https://docs.python.org/3/
@@ -20,16 +30,24 @@ project:
     SimPEG: https://docs.simpeg.xyz/
     geoana: https://geoana.simpeg.xyz/
     sphinx: https://www.sphinx-doc.org/en/master/
+  exclude:
+    - README.md
 site:
   template: book-theme
   title: SimPEG User Tutorials
   thumbnail: https://raw.github.com/simpeg/simpeg/main/docs/images/simpeg-logo.png
-  # logo:
-  nav: []
+  nav:
+    - title: SimPEG
+      children:
+        - title: Project website
+          url: https://simpeg.xyz
+        - title: Documentation
+          url: https://docs.simpeg.xyz
   actions:
     - title: Learn More
       url: https://mystmd.org/guide
   domains: []
-  # Add Plausible analytics
   options:
     analytics_plausible: simpeg.xyz
+    logo: images/simpeg-logo.png
+    logo_text: User Tutorials
