@@ -3,8 +3,11 @@ version: 1
 project:
   title: SimPEG User Tutorials
   subject: SimPEG User Tutorials
-  github: https://github.com/simpeg/user-tutorials
   description: SimPEG user tutorials
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  github: https://github.com/simpeg/user-tutorials
   keywords:
     - geophysics
     - inversions
