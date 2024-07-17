@@ -44,7 +44,7 @@ SimPEG user tutorials provide a learning resource beyond a simple set of reprodu
 
 ```
 # Defining a receiver that measures total magnetic intensity data at (100, 0, 100).
-import SimPEG.potential_fields.magnetics as mag
+import simpeg.potential_fields.magnetics as mag
 my_receiver = mag.receivers.Point(np.c_[10., 0., 0.], components="tmi")
 ```
 
