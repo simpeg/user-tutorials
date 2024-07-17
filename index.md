@@ -42,7 +42,7 @@ SimPEG user tutorials provide a learning resource beyond a simple set of reprodu
 
 **2. Creating objects in SimPEG:** A multitude of required and optional input arguments are set when creating objects within SimPEG. The proper syntax for setting input arguments is provided. The user will also learn the order in which objects are generally created for standard forward modeling and inversion.
 
-```
+```python
 # Defining a receiver that measures total magnetic intensity data at (100, 0, 100).
 import simpeg.potential_fields.magnetics as mag
 my_receiver = mag.receivers.Point(np.c_[10., 0., 0.], components="tmi")
