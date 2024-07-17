@@ -104,7 +104,7 @@ To rerun all notebooks, use:
 > filename expansion.
 
 ```bash
-jupyter nbconvert --to notebook --execute --inplace **/*.ipynb
+jupyter nbconvert --to notebook --execute --inplace notebooks/**/*.ipynb
 ```
 
 
