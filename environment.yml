@@ -12,4 +12,3 @@ dependencies:
   - simpeg==0.22.*
   - discretize==0.10.*
   - pymatsolver
-  - choclo==0.2.*
