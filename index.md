@@ -10,7 +10,7 @@ SimPEG user tutorials is the place for those who have [installed SimPEG](https:/
 
 
 :::{caution} Caution
-These user tutorials are meant to be run with SimPEG v0.21. Please, make sure
+These user tutorials are meant to be run with SimPEG v0.22. Please, make sure
 you have this version installed.
 :::
 
@@ -42,9 +42,9 @@ SimPEG user tutorials provide a learning resource beyond a simple set of reprodu
 
 **2. Creating objects in SimPEG:** A multitude of required and optional input arguments are set when creating objects within SimPEG. The proper syntax for setting input arguments is provided. The user will also learn the order in which objects are generally created for standard forward modeling and inversion.
 
-```
+```python
 # Defining a receiver that measures total magnetic intensity data at (100, 0, 100).
-import SimPEG.potential_fields.magnetics as mag
+import simpeg.potential_fields.magnetics as mag
 my_receiver = mag.receivers.Point(np.c_[10., 0., 0.], components="tmi")
 ```
 
