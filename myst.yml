@@ -27,7 +27,7 @@ project:
     scipy: https://docs.scipy.org/doc/scipy/
     matplotlib: https://matplotlib.org/stable/
     discretize: https://discretize.simpeg.xyz/en/main/
-    simpeg: https://docs.simpeg.xyz/
+    simpeg: https://docs.simpeg.xyz/latest/
     geoana: https://geoana.simpeg.xyz/
     sphinx: https://www.sphinx-doc.org/en/master/
   exclude:
