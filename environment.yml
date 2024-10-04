@@ -8,6 +8,7 @@ dependencies:
   - mystmd
   # Notebook requirements
   - jupyter
+  - jupyterlab-myst
   - nbconvert
   - simpeg==0.22.*
   - discretize==0.10.*
