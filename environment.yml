@@ -11,4 +11,5 @@ dependencies:
   - nbconvert
   - simpeg==0.22.*
   - discretize==0.10.*
+  - choclo==0.3.0
   - pymatsolver
