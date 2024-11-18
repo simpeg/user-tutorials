@@ -26,6 +26,12 @@ jobs:
           miniforge-version: latest
           environment-file: ${{ env.ENVIRONMENT_FILE }}
           activate-environment: ${{ env.ENVIRONMENT_NAME }}
+          auto-activate-base: false
+
+      - name: List installed packages
+        run: |
+          conda info
+          conda list
 
       - name: Check style of notebooks
         run: make check
