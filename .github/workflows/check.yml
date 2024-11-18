@@ -23,7 +23,7 @@ jobs:
       - name: Setup Miniforge
         uses: conda-incubator/setup-miniconda@v3
         with:
-          miniforge-version: Miniforge3
+          miniforge-version: latest
           environment-file: $ENVIRONMENT_FILE
           activate-environment: $ENVIRONMENT_NAME
 
