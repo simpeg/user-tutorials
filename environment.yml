@@ -9,6 +9,6 @@ dependencies:
   # Notebook requirements
   - jupyter
   - nbconvert
-  - simpeg==0.22.*
+  - simpeg==0.23.*
   - discretize==0.10.*
   - pymatsolver
