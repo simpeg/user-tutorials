@@ -28,5 +28,5 @@ jobs:
           activate-environment: $ENVIRONMENT_NAME
 
       - name: Check style of notebooks
-        bash:
+        bash: |
           make check
