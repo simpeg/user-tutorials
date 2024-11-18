@@ -1,0 +1,32 @@
+name: Check style
+
+on:
+  # Check style after every push to main
+  push:
+    branches:
+      - main
+  # Check style on every PR
+  pull_request:
+
+jobs:
+
+  style:
+    runs-on: ubuntu-latest
+    env:
+      ENVIRONMENT_FILE: environment.yml
+      ENVIRONMENT_NAME: simpeg-user-tutorials
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Miniforge
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          miniforge-version: Miniforge3
+          environment-file: $ENVIRONMENT_FILE
+          activate-environment: $ENVIRONMENT_NAME
+
+      - name: Check style of notebooks
+        bash:
+          make check
