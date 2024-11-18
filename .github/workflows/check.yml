@@ -13,25 +13,19 @@ jobs:
   style:
     runs-on: ubuntu-latest
     env:
-      ENVIRONMENT_FILE: environment.yml
-      ENVIRONMENT_NAME: simpeg-user-tutorials
+      PYTHON: "3.12"
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup Miniforge
-        uses: conda-incubator/setup-miniconda@v3
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          miniforge-version: latest
-          environment-file: ${{ env.ENVIRONMENT_FILE }}
-          activate-environment: ${{ env.ENVIRONMENT_NAME }}
-          auto-activate-base: false
+          python-version: ${{ env.PYTHON }}
 
-      - name: List installed packages
-        run: |
-          conda info
-          conda list
+      - name: Install required packages
+        run: pip install ruff nbqa
 
       - name: Check style of notebooks
         run: make check
