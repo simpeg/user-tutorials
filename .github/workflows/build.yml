@@ -39,7 +39,7 @@ jobs:
       # Store the website as a build artifact so we can deploy it later
       - name: Upload HTML website as an artifact
         # Only if not a pull request
-        if: success() && github.event_name != 'pull_request'
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: html-${{ github.sha }}
