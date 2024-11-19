@@ -15,11 +15,39 @@ project:
     - open-source
   authors:
       - name: Devin Cowan
-        affiliations:
-          - University of British Columbia
+        id: devincowan
+        affiliations: ubc
+        roles:
+          - writing
+          - editing
+          - Software
+      - name: Lindsey Heagy
+        id: lindseyheagy
+        affiliations: ubc
+        orcid: 0000-0002-1551-5926
+        roles:
+          - Supervision
+          - Administration
+          - Software
       - name: Santiago Soler
-        affiliations:
-          - University of British Columbia
+        id: santisoler
+        affiliations: ubc
+        orcid: 0000-0001-9202-5317
+        roles:
+          - editing
+          - Software
+  affiliations:
+    - id: ubc
+      institution: University of British Columbia
+      ror: https://ror.org/03rmrcq20
+      isni: 0000 0001 2288 9830
+      department: Department of Earth, Ocean and Atmospheric Sciences
+      address: 2020 – 2207 Main Mall
+      city: Vancouver
+      region: British Columbia
+      country: Canada
+      postal_code: V6T 1Z4
+      phone: 604 822 2449
   # bibliography: []
   references:
     python: https://docs.python.org/3/
