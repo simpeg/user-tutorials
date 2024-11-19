@@ -4,7 +4,7 @@ channels:
 dependencies:
   - python=3.10.*
   # Myst requirements
-  - nodejs>=20,<21
+  - nodejs>18
   - mystmd
   # Notebook requirements
   - jupyter
