@@ -32,6 +32,47 @@ project:
     sphinx: https://www.sphinx-doc.org/en/master/
   exclude:
     - README.md
+    - LICENSE
+    - LICENSE-CC-BY
+    - environment.yml
+
+  toc:
+    - file: index.md
+    - file: notebooks/gravity_index.md
+      children:
+      - file: notebooks/03-gravity/fwd_gravity_anomaly_3d.ipynb
+      - file: notebooks/03-gravity/fwd_gravity_gradiometry_3d.ipynb
+      - file: notebooks/03-gravity/inv_gravity_anomaly_3d.ipynb
+    - file: notebooks/magnetics_index.md
+      children:
+      - file: notebooks/04-magnetics/fwd_magnetics_induced_3d.ipynb
+      - file: notebooks/04-magnetics/fwd_magnetics_mvi_3d.ipynb
+      - file: notebooks/04-magnetics/inv_magnetics_induced_3d.ipynb
+    - file: notebooks/dcr_index.md
+      children:
+      - file: notebooks/05-dcr/fwd_dcr_1d.ipynb
+      - file: notebooks/05-dcr/fwd_dcr_2d.ipynb
+      - file: notebooks/05-dcr/fwd_dcr_3d.ipynb
+      - file: notebooks/05-dcr/inv_dcr_1d.ipynb
+      - file: notebooks/05-dcr/inv_dcr_2d.ipynb
+      - file: notebooks/05-dcr/inv_dcr_3d.ipynb
+    - file: notebooks/ip_index.md
+      children:
+      - file: notebooks/06-ip/fwd_ip_2d.ipynb
+      - file: notebooks/06-ip/fwd_ip_3d.ipynb
+      - file: notebooks/06-ip/inv_ip_2d.ipynb
+      - file: notebooks/06-ip/inv_ip_3d.ipynb
+    - file: notebooks/fdem_index.md
+      children:
+      - file: notebooks/07-fdem/fwd_fdem_1d.ipynb
+      - file: notebooks/07-fdem/inv_fdem_1d.ipynb
+    - file: notebooks/tdem_index.md
+      children:
+      - file: notebooks/08-tdem/fwd_tdem_1d.ipynb
+      - file: notebooks/08-tdem/fwd_tdem_fundamentals.ipynb
+      - file: notebooks/08-tdem/fwd_utem_3d.ipynb
+      - file: notebooks/08-tdem/inv_tdem_1d.ipynb
+
 site:
   template: book-theme
   title: SimPEG User Tutorials
