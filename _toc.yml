@@ -25,6 +25,7 @@ chapters:
   - file: notebooks/03-gravity/fwd_gravity_anomaly_3d
   - file: notebooks/03-gravity/fwd_gravity_gradiometry_3d
   - file: notebooks/03-gravity/inv_gravity_anomaly_3d
+  - file: notebooks/03-gravity/weighting_strategies
 # MAGNETICS
 - file: notebooks/magnetics_index
   sections:
