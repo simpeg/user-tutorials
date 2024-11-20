@@ -6,7 +6,7 @@ In SimPEG, the
 [`simpeg.electromagnetics.time_domain`](xref:simpeg#simpeg.electromagnetics.time_domain)
 module is used for modeling time-domain data.
 
-```{figure} ../assets/website_images/tem_physics.png
+```{figure} ../../assets/website_images/tem_physics.png
 :width: 800px
 :align: center
 

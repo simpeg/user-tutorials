@@ -4,7 +4,7 @@ Frequency-Domain Electromagnetics
 In this chapter, we publish code comparisons and validations for frequency-domain electromagnetic modeling packages.
 In SimPEG, the *SimPEG.electromagnetics.frequency_domain* module is used for modeling frequency-domain data.
 
-```{figure} ../assets/website_images/fem_physics.png
+```{figure} ../../assets/website_images/fem_physics.png
 :width: 800px
 :align: center
 
