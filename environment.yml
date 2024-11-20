@@ -13,3 +13,6 @@ dependencies:
   - simpeg==0.22.*
   - discretize==0.10.*
   - pymatsolver
+  # Code quality
+  - nbqa
+  - ruff
