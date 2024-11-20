@@ -1,0 +1,31 @@
+name: Check style
+
+on:
+  # Check style after every push to main
+  push:
+    branches:
+      - main
+  # Check style on every PR
+  pull_request:
+
+jobs:
+
+  style:
+    runs-on: ubuntu-latest
+    env:
+      PYTHON: "3.12"
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON }}
+
+      - name: Install required packages
+        run: pip install ruff nbqa
+
+      - name: Check style of notebooks
+        run: make check
