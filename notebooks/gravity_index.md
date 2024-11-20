@@ -1,5 +1,8 @@
-Gravity
-=======
+---
+authors: {}
+---
+
+# Gravity
 
 Gravity anomaly and gravity gradiometry data are simulated using functionality within the ``SimPEG.potential_fields.gravity`` module. Here, we provide a multitude of introductory and indermediate level tutorials for forward simulation and inversion of gravity anomaly and gravity gradiometry data. Links to each tutorial can be accessed below or from the left-side menu.
 
