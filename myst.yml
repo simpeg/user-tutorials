@@ -15,11 +15,39 @@ project:
     - open-source
   authors:
       - name: Devin Cowan
-        affiliations:
-          - University of British Columbia
+        id: devincowan
+        affiliations: ubc
+        roles:
+          - writing
+          - editing
+          - Software
+      - name: Lindsey Heagy
+        id: lindseyheagy
+        affiliations: ubc
+        orcid: 0000-0002-1551-5926
+        roles:
+          - Supervision
+          - Administration
+          - Software
       - name: Santiago Soler
-        affiliations:
-          - University of British Columbia
+        id: santisoler
+        affiliations: ubc
+        orcid: 0000-0001-9202-5317
+        roles:
+          - editing
+          - Software
+  affiliations:
+    - id: ubc
+      institution: University of British Columbia
+      ror: https://ror.org/03rmrcq20
+      isni: 0000 0001 2288 9830
+      department: Department of Earth, Ocean and Atmospheric Sciences
+      address: 2020 – 2207 Main Mall
+      city: Vancouver
+      region: British Columbia
+      country: Canada
+      postal_code: V6T 1Z4
+      phone: 604 822 2449
   # bibliography: []
   references:
     python: https://docs.python.org/3/
@@ -32,6 +60,47 @@ project:
     sphinx: https://www.sphinx-doc.org/en/master/
   exclude:
     - README.md
+    - LICENSE
+    - LICENSE-CC-BY
+    - environment.yml
+
+  toc:
+    - file: index.md
+    - file: notebooks/gravity_index.md
+      children:
+      - file: notebooks/03-gravity/fwd_gravity_anomaly_3d.ipynb
+      - file: notebooks/03-gravity/fwd_gravity_gradiometry_3d.ipynb
+      - file: notebooks/03-gravity/inv_gravity_anomaly_3d.ipynb
+    - file: notebooks/magnetics_index.md
+      children:
+      - file: notebooks/04-magnetics/fwd_magnetics_induced_3d.ipynb
+      - file: notebooks/04-magnetics/fwd_magnetics_mvi_3d.ipynb
+      - file: notebooks/04-magnetics/inv_magnetics_induced_3d.ipynb
+    - file: notebooks/dcr_index.md
+      children:
+      - file: notebooks/05-dcr/fwd_dcr_1d.ipynb
+      - file: notebooks/05-dcr/fwd_dcr_2d.ipynb
+      - file: notebooks/05-dcr/fwd_dcr_3d.ipynb
+      - file: notebooks/05-dcr/inv_dcr_1d.ipynb
+      - file: notebooks/05-dcr/inv_dcr_2d.ipynb
+      - file: notebooks/05-dcr/inv_dcr_3d.ipynb
+    - file: notebooks/ip_index.md
+      children:
+      - file: notebooks/06-ip/fwd_ip_2d.ipynb
+      - file: notebooks/06-ip/fwd_ip_3d.ipynb
+      - file: notebooks/06-ip/inv_ip_2d.ipynb
+      - file: notebooks/06-ip/inv_ip_3d.ipynb
+    - file: notebooks/fdem_index.md
+      children:
+      - file: notebooks/07-fdem/fwd_fdem_1d.ipynb
+      - file: notebooks/07-fdem/inv_fdem_1d.ipynb
+    - file: notebooks/tdem_index.md
+      children:
+      - file: notebooks/08-tdem/fwd_tdem_1d.ipynb
+      - file: notebooks/08-tdem/fwd_tdem_fundamentals.ipynb
+      - file: notebooks/08-tdem/fwd_utem_3d.ipynb
+      - file: notebooks/08-tdem/inv_tdem_1d.ipynb
+
 site:
   template: book-theme
   title: SimPEG User Tutorials
