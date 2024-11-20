@@ -13,8 +13,8 @@ Schematic illustrating the physics of the FEM method for an inductive source.
 
 ## Tutorial Notebooks
 
-[1D Forward Simulation for a Single Sounding](07-fdem/fwd_fdem_1d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
+[1D Forward Simulation for a Single Sounding](frequency-domain-em/fwd_fdem_1d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[1D Inversion for a Single Sounding](07-fdem/inv_fdem_1d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
+[1D Inversion for a Single Sounding](frequency-domain-em/inv_fdem_1d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />
