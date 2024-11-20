@@ -13,21 +13,21 @@ Schematic illustrating the physics of the DC/IP method ([image source](https://e
 ## Tutorial Notebooks
 
 
-[1D Forward Simulation for a Single Sounding](05-dcr/fwd_dcr_1d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
+[1D Forward Simulation for a Single Sounding](dc-resistivity/fwd_dcr_1d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[2.5D Forward Simulation](05-dcr/fwd_dcr_2d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
+[2.5D Forward Simulation](dc-resistivity/fwd_dcr_2d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[3D Forward Simulation](05-dcr/fwd_dcr_3d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
+[3D Forward Simulation](dc-resistivity/fwd_dcr_3d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
 <br />
 
-[1D Inversion for a Single Sounding](05-dcr/inv_dcr_1d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
+[1D Inversion for a Single Sounding](dc-resistivity/inv_dcr_1d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />
 
-[2.5D DC Resistivity Inversion](05-dcr/inv_dcr_2d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
+[2.5D DC Resistivity Inversion](dc-resistivity/inv_dcr_2d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
 <br />
 
-[3D DC Resistivity Inversion](05-dcr/inv_dcr_3d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
+[3D DC Resistivity Inversion](dc-resistivity/inv_dcr_3d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
 <br />
 
