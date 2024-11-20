@@ -13,6 +13,7 @@ dependencies:
   - simpeg==0.23.*
   - discretize==0.11.*
   - choclo==0.3.*
+  - scikit-learn
   - pymatsolver
   # Code quality
   - nbqa
