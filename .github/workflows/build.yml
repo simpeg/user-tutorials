@@ -25,9 +25,12 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Myst
+      - name: Install MyST
         run: |
           npm install -g mystmd
+
+      - name: Print MyST version
+        run: myst --version
 
       - name: Build website as static HTML
         run: |
