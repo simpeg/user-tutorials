@@ -20,3 +20,6 @@ Earth's gravity anomalies ([image source](https://upload.wikimedia.org/wikipedia
 
 [3D Inversion of Gravity Anomaly Data](03-gravity/inv_gravity_anomaly_3d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />
+
+[Compare weighting strategy with Inversion of surface Gravity Anomaly Data](03-gravity/weighting_strategies) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
+<br />
