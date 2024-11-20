@@ -36,6 +36,11 @@ project:
         roles:
           - editing
           - Software
+      - name: Thibaut Astic
+        id: thibautastic
+        affiliations: kobold
+        roles:
+          - writing
   affiliations:
     - id: ubc
       institution: University of British Columbia
@@ -48,6 +53,8 @@ project:
       country: Canada
       postal_code: V6T 1Z4
       phone: 604 822 2449
+    - id: kobold
+      institution: Kobold Metals
   # bibliography: []
   references:
     python: https://docs.python.org/3/
