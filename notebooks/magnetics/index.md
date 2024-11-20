@@ -13,11 +13,11 @@ Global scale magnetic anomalies over Africa ([image source](https://upload.wikim
 
 ## Tutorial Notebooks
 
-[3D Forward Simulation of Total Magnetic Intensity Data](04-magnetics/fwd_magnetics_induced_3d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
+[3D Forward Simulation of Total Magnetic Intensity Data](magnetics/fwd_magnetics_induced_3d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[3D Forward Simulation of Magnetic Gradiometry Data](04-magnetics/fwd_magnetics_mvi_3d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
+[3D Forward Simulation of Magnetic Gradiometry Data](magnetics/fwd_magnetics_mvi_3d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[3D Inversion of TMI Data to Recover a Susceptibility Model](04-magnetics/inv_magnetics_induced_3d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
+[3D Inversion of TMI Data to Recover a Susceptibility Model](magnetics/inv_magnetics_induced_3d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />
