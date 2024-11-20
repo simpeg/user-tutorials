@@ -15,14 +15,14 @@ Schematic illustrating the physics of the TEM method for an inductive source.
 
 ## Tutorial Notebooks
 
-[1D Forward Simulation for a Single Sounding](08-tdem/fwd_tdem_1d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
+[1D Forward Simulation for a Single Sounding](time-domain-em/fwd_tdem_1d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[Fundamentals of Finite Volume for TDEM Simulations](08-tdem/fwd_tdem_fundamentals) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
+[Fundamentals of Finite Volume for TDEM Simulations](time-domain-em/fwd_tdem_fundamentals) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
-[3D Forward Simulation for On-Time Large-Loop Data](08-tdem/fwd_utem_3d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
+[3D Forward Simulation for On-Time Large-Loop Data](time-domain-em/fwd_utem_3d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
 <br />
 
-[1D Inversion for a Single Sounding](08-tdem/inv_tdem_1d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
+[1D Inversion for a Single Sounding](time-domain-em/inv_tdem_1d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />
