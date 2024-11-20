@@ -14,3 +14,6 @@ dependencies:
   - discretize==0.11.*
   - choclo==0.3.*
   - pymatsolver
+  # Code quality
+  - nbqa
+  - ruff
