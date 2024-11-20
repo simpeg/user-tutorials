@@ -73,48 +73,48 @@ project:
 
   toc:
     - file: index.md
-    - file: notebooks/gravity_index.md
+    - file: notebooks/gravity/index.md
       children:
-      - file: notebooks/03-gravity/fwd_gravity_anomaly_3d.ipynb
-      - file: notebooks/03-gravity/fwd_gravity_gradiometry_3d.ipynb
-      - file: notebooks/03-gravity/inv_gravity_anomaly_3d.ipynb
-      - file: notebooks/03-gravity/weighting_strategies.ipynb
-    - file: notebooks/magnetics_index.md
+      - file: notebooks/gravity/fwd_gravity_anomaly_3d.ipynb
+      - file: notebooks/gravity/fwd_gravity_gradiometry_3d.ipynb
+      - file: notebooks/gravity/inv_gravity_anomaly_3d.ipynb
+      - file: notebooks/gravity/weighting_strategies.ipynb
+    - file: notebooks/magnetics/index.md
       children:
-      - file: notebooks/04-magnetics/fwd_magnetics_induced_3d.ipynb
-      - file: notebooks/04-magnetics/fwd_magnetics_mvi_3d.ipynb
-      - file: notebooks/04-magnetics/inv_magnetics_induced_3d.ipynb
-    - file: notebooks/dcr_index.md
+      - file: notebooks/magnetics/fwd_magnetics_induced_3d.ipynb
+      - file: notebooks/magnetics/fwd_magnetics_mvi_3d.ipynb
+      - file: notebooks/magnetics/inv_magnetics_induced_3d.ipynb
+    - file: notebooks/dc-resistivity/index.md
       children:
-      - file: notebooks/05-dcr/fwd_dcr_1d.ipynb
-      - file: notebooks/05-dcr/fwd_dcr_2d.ipynb
-      - file: notebooks/05-dcr/fwd_dcr_3d.ipynb
-      - file: notebooks/05-dcr/inv_dcr_1d.ipynb
-      - file: notebooks/05-dcr/inv_dcr_2d.ipynb
-      - file: notebooks/05-dcr/inv_dcr_3d.ipynb
-    - file: notebooks/ip_index.md
+      - file: notebooks/dc-resistivity/fwd_dcr_1d.ipynb
+      - file: notebooks/dc-resistivity/fwd_dcr_2d.ipynb
+      - file: notebooks/dc-resistivity/fwd_dcr_3d.ipynb
+      - file: notebooks/dc-resistivity/inv_dcr_1d.ipynb
+      - file: notebooks/dc-resistivity/inv_dcr_2d.ipynb
+      - file: notebooks/dc-resistivity/inv_dcr_3d.ipynb
+    - file: notebooks/induced-polarization/index.md
       children:
-      - file: notebooks/06-ip/fwd_ip_2d.ipynb
-      - file: notebooks/06-ip/fwd_ip_3d.ipynb
-      - file: notebooks/06-ip/inv_ip_2d.ipynb
-      - file: notebooks/06-ip/inv_ip_3d.ipynb
-    - file: notebooks/fdem_index.md
+      - file: notebooks/induced-polarization/fwd_ip_2d.ipynb
+      - file: notebooks/induced-polarization/fwd_ip_3d.ipynb
+      - file: notebooks/induced-polarization/inv_ip_2d.ipynb
+      - file: notebooks/induced-polarization/inv_ip_3d.ipynb
+    - file: notebooks/frequency-domain-em/index.md
       children:
-      - file: notebooks/07-fdem/fwd_fdem_1d.ipynb
-      - file: notebooks/07-fdem/inv_fdem_1d.ipynb
-    - file: notebooks/tdem_index.md
+      - file: notebooks/frequency-domain-em/fwd_fdem_1d.ipynb
+      - file: notebooks/frequency-domain-em/inv_fdem_1d.ipynb
+    - file: notebooks/time-domain-em/index.md
       children:
-      - file: notebooks/08-tdem/fwd_tdem_1d.ipynb
-      - file: notebooks/08-tdem/fwd_tdem_fundamentals.ipynb
-      - file: notebooks/08-tdem/fwd_utem_3d.ipynb
-      - file: notebooks/08-tdem/inv_tdem_1d.ipynb
+      - file: notebooks/time-domain-em/fwd_tdem_1d.ipynb
+      - file: notebooks/time-domain-em/fwd_tdem_fundamentals.ipynb
+      - file: notebooks/time-domain-em/fwd_utem_3d.ipynb
+      - file: notebooks/time-domain-em/inv_tdem_1d.ipynb
     - title: Joint Inversion
       children:
-        - file: notebooks/11-joint-inversion/plot_inv_3_cross_gradient_pf.ipynb
+        - file: notebooks/joint-inversion/plot_inv_3_cross_gradient_pf.ipynb
     - title: PGI Inversion
       children:
-        - file: notebooks/12-pgi-inversion/plot_inv_1_joint_pf_pgi_full_info_tutorial.ipynb
-        - file: notebooks/12-pgi-inversion/plot_inv_2_joint_pf_pgi_no_info_tutorial.ipynb
+        - file: notebooks/pgi/plot_inv_1_joint_pf_pgi_full_info_tutorial.ipynb
+        - file: notebooks/pgi/plot_inv_2_joint_pf_pgi_no_info_tutorial.ipynb
 
 site:
   template: book-theme
