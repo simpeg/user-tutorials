@@ -10,8 +10,10 @@ dependencies:
   - jupyter
   - jupyterlab-myst
   - nbconvert
-  - simpeg==0.22.*
-  - discretize==0.10.*
+  - simpeg==0.23.*
+  - discretize==0.11.*
+  - choclo==0.3.*
+  - scikit-learn
   - pymatsolver
   # Code quality
   - nbqa

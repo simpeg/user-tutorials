@@ -157,6 +157,8 @@ notebooks/**/*.txt
 notebooks/**/*.obs
 notebooks/**/*.xyz
 notebooks/**/*.gz
+notebooks/**/*.mod
+notebooks/**/*.ubc
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
