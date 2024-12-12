@@ -115,6 +115,11 @@ project:
       children:
         - file: notebooks/12-pgi-inversion/plot_inv_1_joint_pf_pgi_full_info_tutorial.ipynb
         - file: notebooks/12-pgi-inversion/plot_inv_2_joint_pf_pgi_no_info_tutorial.ipynb
+    - file: notebooks/contributing_index.md
+      children:
+        - file: notebooks/getting_started.md
+        - file: notebooks/notebook_formatting.md
+        - file: notebooks/generating_pr.md
 
 site:
   template: book-theme
