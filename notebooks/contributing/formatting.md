@@ -178,7 +178,7 @@ import os
 
 Each section (or subsection) is constructed using a combination of Markdown and code cells. The structure and formatting of these are discussed below.
 
-### Cell 1: Header and Summary
+### Header and Summary
 
 Each section (or subsection) begins with a Markdown cell containing the header and a summary.
 Here, the contributor must:
@@ -249,26 +249,29 @@ source_field = gravity.sources.SourceField(receiver_list=receiver_list)
 survey = gravity.survey.Survey(source_field)
 ```
 
-### Comments on Plotting
+### Plotting Requirements
 
-The author is required to plot data, models, etc... When generating plot, please ensure:
+The contributor is required to plot data, models and other quantities that are best understood visually.
+Due to its widespread use, figures should be generated using [matplotlib](https://matplotlib.org/) package.
+When generating a figure, please ensure:
 
-* the figure renders at an appropriate size for display
-* the code used to generate the plot is compact
-* text and features within the plot are legible
+* the figure renders at an appropriate size when building the website
+* the code used to generate the figure is compact whenever possible
+* the text and features within the plot are legible
 
 
 ## Check Style of Notebooks
 
-We can check the code style of our notebooks using [`ruff`][ruff] and
-[`nbqa`][nbqa]. Simply run the following command to check the style of the
-notebooks:
+We can check and autoformat the code style within the notebooks using [`ruff`][ruff] and
+[`nbqa`][nbqa].
+
+To check the style of the notebooks:
 
 ```bash
 nbqa ruff notebooks
 ```
 
-And run this to autoformat them:
+To perform auto reformatting on the notebooks:
 
 ```bash
 nbqa ruff --fix notebooks
