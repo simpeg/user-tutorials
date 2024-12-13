@@ -14,26 +14,24 @@ Feel free to remove lines from this template that do not apply to you pull reque
 -->
 
 #### Summary
-<!-- Add a summary of this Pull Request -->
+<!-- Add a summary of this Pull Request. Explain what it provides as tutorial material. -->
 
 #### PR Checklist
 * [ ] If this is a work in progress PR, set as a Draft PR
 * [ ] Introduction is complete:
-      * [ ] Author has been added to notebook
-      * [ ] An introductory paragraph summarizing the notebook's contents has been added
-      * [ ] Appropriate admonitions for notebook difficulty and computational resources have been added
-      * [ ] Appropriate keywords have been added
-      * [ ] Learning objectives have been listed
-      * [ ] Hyperlinks to other tutorial notebooks and important classes/functionality have been added
-* [ ] Each section is properly formatted
-      * [ ] Short summary of what is being done
-      * [ ] Newly introduced functionality is explained or a link is provided to a relevant notebook
-      * [ ] Links to API documentation added for all classes and functionality
-      * [ ] Data, models, etc... are plotted whenever possible  
-* [ ] Coding cells have been linted according to the [style guides](https://docs.simpeg.xyz/latest/content/getting_started/contributing/code-style.html).
-* [ ] Added [tests](https://docs.simpeg.xyz/latest/content/getting_started/contributing/testing.html) to verify changes to the code.
-* [ ] Marked as ready for review (if this is was a draft PR), and converted 
-      to a Pull Request
+    * [ ] Title and author added to notebook
+    * [ ] Admonitions for notebook difficulty and computational resources have been added
+    * [ ] Keywords list has been added
+    * [ ] Summary paragraph describing the tutorial has been added
+    * [ ] Learning objectives have been listed
+    * [ ] Hyperlinks to other tutorial notebooks added if necessary
+* [ ] For sections and subsections:
+    * [ ] A header and short summary of what is being done
+    * [ ] Links to API documentation added for all classes and functions that are used
+    * [ ] Newly introduced functionality is explained or links provided to relevant notebooks
+    * [ ] All figures are legible and rendered appropriately
+    * [ ] Coding cells have been linted according to the [style guides](https://docs.simpeg.xyz/latest/content/getting_started/contributing/code-style.html).
+* [ ] Marked as ready for review (if this is was a draft PR), and converted to a pull request
 * [ ] Tagged ``@simpeg/simpeg-developers`` when ready for review.
 
 
