@@ -1,5 +1,5 @@
-GitHub Pull Request and Review
-==============================
+GitHub Pull Request and Review Process
+======================================
 
 Requirements Checklist
 ----------------------

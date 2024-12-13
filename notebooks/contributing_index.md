@@ -1,32 +1,40 @@
-Contributing to User-Tutorials
+Contributing to User Tutorials
 ==============================
 
-User tutorials have become the primary resource for SimPEG users to learn the code base and best-practices for computational geophysics.
-To ensure a high level of consistency and quality, specific guidelines need to be followed when adding new tutorial notebooks.
-New tutorial notebooks will not be published until our guidelines have been followed.
+SimPEG welcomes contributions by the community to improve available tutorial materials.
+However, tutorials must adhere to specific guidelines in order to ensure a high level of quality and consistency.
+For those interested in contributing to SimPEG User Tutorials, please follow the instructions provided.
 
-Before You Create a Tutorial
-----------------------------
 
-Although we greatly appreciate efforts by the SimPEG community to create new tutorials,
-we must ensure the contents of the tutorial are appropriate. As a result,
-we discourage tutorials that fall into the following categories:
+Before Creating a New Tutorial
+------------------------------
+
+```{admonition} WARNING!
+:class: danger
+Please ensure that the contents of your tutorial **DOES NOT** fall into any of the following categories:
 
 * the tutorial focusses on functionality that is not part of SimPEG
-* the amount of SimPEG functionality that has not already been covered in another tutorial is insufficient
+* the amount of SimPEG functionality NOT already covered in another tutorial is insufficient
 * the tutorial focusses on a data-specific result and is not generalizable
-* the tutorial was created for purpose of self promotion
+* the tutorial was created for the purpose of self promotion
 
+Tutorials that fall into any of these categories will not be accepted!
+```
 
-How to Contribute
------------------
+Steps for Adding a Tutorial
+---------------------------
 
-To add a new notebook to SimPEG user tutorials, you will need to complete the following three steps:
+As explained on the [SimPEG user tutorials](../index.md) landing page, the SimPEG user tutorials are a library of [Jupyter Notebooks](https://jupyter.org/) that have been published as a website using [MyST](https://mystmd.org/). To add a tutorial notebook to the project, you will need to complete the following steps:
 
-1. Follow the instructions on the [Cloning the Repository and Building the Website](getting_started.md) page.
-These instructions explain how to clone the SimPEG user tutorials repository, setup the appropriate Python
-environment, and build the website locally with MyST.
+**Step 1: Building the User Tutorials Website Locally**
 
-2. Create a notebook according to the [Structure and Formatting for Notebooks](notebook_formatting.md) page.
+First, you will need all of the functionality required to run the existing tutorial notebooks and build the website locally with [MyST][mystmd.org].
+Instructions for creating an appropriate Python environment and building the website locally are found on the [Building the User Tutorials Website Locally](contributing/build_website.md) page.
 
-3. Create a GitHub pull request.
+**Step 2: Creating a Tutorial Notebook**
+
+Jupyter notebooks that contain tutorials must adhere to specific structure and formatting requirements.
+These are provided on the [Tutorial Structure and Formatting Requirements](contributing/formatting.md) page.
+
+**Step 3: The Review Process**
+

@@ -1,15 +1,22 @@
-Structure and Formatting for Notebooks
-======================================
+Tutorial Structure and Formatting Requirements
+==============================================
 
-For consistency, tutorial notebooks follow strict structure and formatting requirements. Each notebook begins with an introductory section, comprised of several Markdown cells. The contents of the notebook are parsed into sections. Each section contains a Markdown cells, code cells, and plot outputs. For example, see the [3D integral formulation](xref:simpeg#simpeg.potential_fields.gravity.Simulation3DIntegral) tutorial. The structure and formatting requirements for tutorial notebooks are discussed below.
+To ensure quality and consistency, the [Jupyter Notebooks](https://jupyter.org/) containing tutorials must follow strict structure and formatting requirements. The contents of each notebooks must be parsed sensibly into a set of sections. Sufficient explanation and links to API documentation are required when presenting functionality. Each section within a tutorial contains a combination of [Markdown](https://www.markdownguide.org/getting-started/) and coding cells. Our notebooks use the functionality in [MyST Parser](https://myst-parser.readthedocs.io/en/latest/) to augment the contents of Markdown cells. Before moving forward, we advise the contributor to:
 
-### Introduction Markdown
+* Be familiar with the structure and formatting that is used by most forward simulation and inversion tutorials. E.g. [3D Forward Simulation of Gravity Anomaly Data](../03-gravity/fwd_gravity_anomaly_3d.ipynb) and [3D Inversion of Gravity Anomaly Data](../03-gravity/inv_gravity_anomaly_3d.ipynb).
 
-Every tutorial notebook must provide a thorough introduction.
+* Refer to the Markdown syntax used by [MyST Parser](https://myst-parser.readthedocs.io/en/latest/).
 
-#### Cell 1: Title Cell
+* Refer to the [style guide](https://docs.simpeg.xyz/latest/content/getting_started/contributing/code-style.html) for coding cells.
 
-The first cell in the notebooks is a Markdown cell containing the title and the author for the tutorial. It is formatted as follows.
+
+## Notebook Introduction
+
+Every tutorial notebook requires an introduction section. The Markdown cells required for the introduction are described below.
+
+### Cell 1: Title Cell
+
+The first cell contains the title and the author for the tutorial. It is formatted as follows.
 The title is in quotations. You will need to add yourself as an author in the `myst.yml` file in the root directory of the repository.
 
 ```
@@ -20,7 +27,7 @@ authors:
 ---
 ```
 
-#### Cell 2: Tutorial Difficulty
+### Cell 2: Tutorial Difficulty
 
 Here, we indicate whether the notebook contains introductory, intermediate or advanced content. The author is required to choose
 from one of the following [MyST admonitions](https://myst-parser.readthedocs.io/en/latest/syntax/admonitions.html), which is rendered when the webpage is built.
@@ -51,7 +58,7 @@ the user is already an experienced SimPEG user.
 :::
 ```
 
-#### Cell 3: Computational Requirements
+### Cell 3: Computational Requirements
 
 Here, we specify the computational requirements to run the notebook. Whereas some notebooks can be run easily on laptop computers, some notebook may need to be exported as Python files and run using cluster computing. The author is required to choose from one of the following [MyST admonitions](https://myst-parser.readthedocs.io/en/latest/syntax/admonitions.html), which is rendered when the webpage is built.
 
@@ -80,15 +87,15 @@ to a cluster computing environment.
 :::
 ```
 
-#### Cell 4: Keywords, Summary and Learning Objectives
+### Cell 4: Keywords, Summary and Learning Objectives
 
-In this cell, please provide keywords relevant to the notebook. E.g.
+In this cell, the contributor must provide a set of relevant keywords. E.g.
 
 ```
 **Keywords:** gravity inversion, sparse-norm inversion, integral formulation, tree mesh.
 ```
 
-Next, summarize the purpose of the tutorial. The summary should be roughly one paragraph. If your tutorial focusses on particular functionality within SimPEG, please link to the API documentation. Please link to tutorials you feel the reader should have already worked through. E.g. 
+Next, the contributor must provide a summary of the tutorial. The summary should be roughly one paragraph. If your tutorial focusses on particular functionality within SimPEG, please link to the API documentation. Also, link to tutorials you feel the reader should have already worked through. E.g. 
 
 ```
 **Summary:** Here we invert gravity anomaly data to recover a density contrast model.
@@ -106,7 +113,7 @@ become familiar with functionality explained in the [3D Forward Simulation of Gr
 Anomaly Data](fwd_gravity_anomaly_3d.ipynb) tutorial before working through this one.
 ```
 
-Finally, provide learning objectives as a bullet list. E.g.
+Finally, the contributor must provide learning objectives using a bullet list. E.g.
 
 ```
 **Learning Objectives:**
@@ -121,21 +128,68 @@ Finally, provide learning objectives as a bullet list. E.g.
 - How to analyse inversion results.
 ```
 
-### Formatting Tutorial Sections
+## Import Functionality
+
+Following the introduction section, the contributor must import all functionality used by the tutorial and briefly explain the functionality that is most important.
+
+### Cell 1: Header and Summary
+
+This Markdown cell uses the heading **Import Modules**. For functionality that relates
+directly to the purpose of the tutorial, some context and a link to API documentation
+should be provided. E.g. 
+
+:::
+## Import Modules
+
+Here, we import all of the functionality required to run the notebook for the tutorial
+exercise. All of the functionality specific to simulating gravity data are imported from
+[simpeg.potential_fields.gravity](xref:simpeg#simpeg.potential_fields.gravity). We also
+import some useful utility functions from [simpeg.utils](xref:simpeg#simpeg.utils).
+To simulate gravity data, we need to define our problem geometry on a numerical grid
+(or mesh). To generate the mesh, we used the
+[discretize](https://discretize.simpeg.xyz/en/main) package.
+:::
+
+### Cell 2: Code Cell
+
+The coding cell where functionality is imported should be organized. E.g.
+
+```python
+# SimPEG functionality
+from simpeg.potential_fields import gravity
+from simpeg.utils import plot2Ddata, model_builder
+from simpeg import maps
+
+# discretize functionality
+from discretize import TensorMesh
+from discretize.utils import mkvc, active_from_xyz
+
+# Common Python functionality
+import numpy as np
+from scipy.interpolate import LinearNDInterpolator
+import matplotlib as mpl
+
+mpl.rcParams.update({"font.size": 14})
+import matplotlib.pyplot as plt
+import os
+```
+
+## Tutorial Sections (and Subsections)
 
 Each section (or subsection) is constructed using a combination of Markdown and code cells. The structure and formatting of these are discussed below.
 
-#### Section Header and Summary Cell
+### Cell 1: Header and Summary
 
-Each section (or subsection) begins with a Markdown cell containing the section header and a summary.
-Here, the author must:
+Each section (or subsection) begins with a Markdown cell containing the header and a summary.
+Here, the contributor must:
 
 * summarize what is being done in the section
 * describe any new functionality that is being introduced
 * provide links to all relevant API documentation
-* describe the choices for hyperparameter values used in the tutorial.
+* describe the choices for hyperparameter values used in the tutorial
 
 E.g.
+
 ```
 ## Define the Survey
 
@@ -158,14 +212,26 @@ which are to be measured. For the tutorial simulation, the receivers are located
 5 m above the surface topography and spaced 10 m apart.
 ```
 
-#### Code Block Cells:
+If something has been thoroughly explained in an introductory tutorial, you can avoid repetition by linking to that tutorial.
+However, the choice in values used in your tutorial should always be stated. E.g.
+
+```
+## Assign Uncertainties
+
+Approaches for applying reasonable uncertainties to normalized voltage and apparent
+resistivity data were presented in the [2.5D Inversion](inv_dcr_2d.ipynb) tutorial.
+Here, we apply uncertainties of 1e-7 V/A + 10 % to the normalized voltage data being
+inverted.
+```
+
+### Code Block Cells
 
 Code blocks must follow the [style required by SimPEG](https://docs.simpeg.xyz/latest/content/getting_started/contributing/code-style.html).
 Please provide comments when defining new objects. This is especially important when exposing the reader to new functionality.
+Avoid lengthy code blocks that can be better parsed into multiple cells. Markdown cells can also be added between code cells
+to provide additional explanation to the reader.
 
-E.g.
-
-```
+```python
 # Define the component(s) of the field we want to simulate as strings within
 # a list. Here we simulate only the vertical component of the gravity anomaly.
 components = ["gz"]
@@ -183,10 +249,38 @@ source_field = gravity.sources.SourceField(receiver_list=receiver_list)
 survey = gravity.survey.Survey(source_field)
 ```
 
-#### Comments on Plotting:
+### Comments on Plotting
 
 The author is required to plot data, models, etc... When generating plot, please ensure:
 
 * the figure renders at an appropriate size for display
 * the code used to generate the plot is compact
 * text and features within the plot are legible
+
+
+## Check Style of Notebooks
+
+We can check the code style of our notebooks using [`ruff`][ruff] and
+[`nbqa`][nbqa]. Simply run the following command to check the style of the
+notebooks:
+
+```bash
+nbqa ruff notebooks
+```
+
+And run this to autoformat them:
+
+```bash
+nbqa ruff --fix notebooks
+```
+
+Alternatively, you can use the targets we have in the `Makefile`, like `make
+check` and `make format`. Read more information about the available targets
+by running `make help`.
+
+
+
+
+[install-mystmd]: https://mystmd.org/guide/quickstart
+[jupyter]: https://jupyter.org
+[mystmd.org]: https://mystmd.org

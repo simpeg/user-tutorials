@@ -117,9 +117,9 @@ project:
         - file: notebooks/12-pgi-inversion/plot_inv_2_joint_pf_pgi_no_info_tutorial.ipynb
     - file: notebooks/contributing_index.md
       children:
-        - file: notebooks/getting_started.md
-        - file: notebooks/notebook_formatting.md
-        - file: notebooks/generating_pr.md
+        - file: notebooks/contributing/build_website.md
+        - file: notebooks/contributing/formatting.md
+        - file: notebooks/contributing/pull_request.md
 
 site:
   template: book-theme
