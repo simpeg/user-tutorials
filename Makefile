@@ -14,10 +14,10 @@ help:
 
 
 build:
-	msyt build --html
+	myst build --html
 
 clean:
-	msyt clean --all
+	myst clean --all
 
 run:
 	jupyter nbconvert --to notebook --execute --inplace "${NOTEBOOKS_DIR}/**/*.ipynb"
