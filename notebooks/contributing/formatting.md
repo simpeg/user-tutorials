@@ -262,28 +262,30 @@ When generating a figure, please ensure:
 
 ## Check Style of Notebooks
 
-We can check and autoformat the code style within the notebooks using [`ruff`][ruff] and
-[`nbqa`][nbqa].
-
-To check the style of the notebooks:
+We can check the code style of our notebooks using [`ruff`][ruff].
+Simply run the following command to check the style of the notebooks:
 
 ```bash
-nbqa ruff notebooks
+ruff check notebooks
 ```
 
-To perform auto reformatting on the notebooks:
+You can run the following that the notebooks are correctly formatted:
 
 ```bash
-nbqa ruff --fix notebooks
+ruff format --check notebooks
+```
+
+And run this to autoformat them:
+
+```bash
+ruff format --fix notebooks
 ```
 
 Alternatively, you can use the targets we have in the `Makefile`, like `make
 check` and `make format`. Read more information about the available targets
 by running `make help`.
 
-
-
-
+[ruff]: https://astral.sh/ruff
 [install-mystmd]: https://mystmd.org/guide/quickstart
 [jupyter]: https://jupyter.org
 [mystmd.org]: https://mystmd.org
