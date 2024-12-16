@@ -16,14 +16,16 @@ project:
   authors:
       - name: Devin Cowan
         id: devincowan
-        affiliations: ubc
+        affiliations: UBC Geophysical Inversion Facility
+        orcid: 0000-0002-0089-402X
         roles:
-          - writing
-          - editing
+          - Original creator
+          - Writing
+          - Editing
           - Software
       - name: Lindsey Heagy
         id: lindseyheagy
-        affiliations: ubc
+        affiliations: UBC Geophysical Inversion Facility
         orcid: 0000-0002-1551-5926
         roles:
           - Supervision
@@ -31,16 +33,20 @@ project:
           - Software
       - name: Santiago Soler
         id: santisoler
-        affiliations: ubc
+        affiliations: UBC Geophysical Inversion Facility
         orcid: 0000-0001-9202-5317
         roles:
-          - editing
+          - Editing
           - Software
       - name: Thibaut Astic
         id: thibautastic
-        affiliations: kobold
+        affiliations: Kobold Metals
         roles:
           - writing
+      - name: Joseph Capriotti
+        id : jcapriotti
+        affiliations: Colorado School of Mines
+        orcid: 0000-0003-4762-5377
   affiliations:
     - id: ubc
       institution: University of British Columbia
