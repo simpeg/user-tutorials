@@ -51,7 +51,7 @@ preview it. Follow the instructions that will be prompted by the command to see
 the website:
 
 ```bash
-msyt start
+myst start
 ```
 
 #### Build only
@@ -60,7 +60,7 @@ The following command will build the website and store the HTML files in
 a new `_build` folder:
 
 ```bash
-msyt build --html
+myst build --html
 ```
 
 #### Clean cached builds
