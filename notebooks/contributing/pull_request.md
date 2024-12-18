@@ -18,7 +18,8 @@ The following is a useful checklist for determining whether the tutorial noteboo
 * **For sections and subsections:**
     * A header and short summary of what is being done
     * Links to API documentation added for all classes and functions that are used
-    * Newly introduced functionality is explained or links provided to relevant notebooks
+    * Newly introduced functionality is explained, or links are provided to relevant materials
+    * The approach taken when choosing hyperparameter values is explained. The use of ad hoc values without explanation is discouraged.
     * All figures are legible and rendered appropriately
     * Coding cells have been linted according to the [style guides](https://docs.simpeg.xyz/latest/content/getting_started/contributing/code-style.html).
 
