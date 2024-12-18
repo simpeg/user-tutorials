@@ -51,7 +51,7 @@ preview it. Follow the instructions that will be prompted by the command to see
 the website:
 
 ```bash
-msyt start
+myst start
 ```
 
 #### Build only
@@ -60,7 +60,7 @@ The following command will build the website and store the HTML files in
 a new `_build` folder:
 
 ```bash
-msyt build --html
+myst build --html
 ```
 
 #### Clean cached builds
@@ -115,23 +115,30 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/**/*.ipynb
 
 ## Check style of notebooks
 
-We can check the code style of our notebooks using [`ruff`][ruff] and
-[`nbqa`][nbqa]. Simply run the following command to check the style of the
-notebooks:
+We can check the code style of our notebooks using [`ruff`][ruff].
+Simply run the following command to check the style of the notebooks:
 
 ```bash
-nbqa ruff notebooks
+ruff check notebooks
+```
+
+You can run the following that the notebooks are correctly formatted:
+
+```bash
+ruff format --check notebooks
 ```
 
 And run this to autoformat them:
 
 ```bash
-nbqa ruff --fix notebooks
+ruff format --fix notebooks
 ```
 
 Alternatively, you can use the targets we have in the `Makefile`, like `make
 check` and `make format`. Read more information about the available targets
 by running `make help`.
+
+[ruff]: https://astral.sh/ruff
 
 ## License
 
