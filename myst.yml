@@ -117,7 +117,7 @@ project:
     - file: notebooks/joint_index.md
       children:
         - file: notebooks/11-joint-inversion/inv_1_cross_gradient.ipynb
-        - file: notebooks/11-joint-inversion/inv_2_pgi.ipynb
+        # - file: notebooks/11-joint-inversion/inv_2_pgi.ipynb
 
 site:
   template: book-theme
