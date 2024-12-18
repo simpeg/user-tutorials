@@ -15,6 +15,5 @@ dependencies:
   - choclo==0.3.*
   - scikit-learn
   - pymatsolver
-  # Code quality
-  - nbqa
+  # Code style
   - ruff

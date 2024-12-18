@@ -25,7 +25,7 @@ jobs:
           python-version: ${{ env.PYTHON }}
 
       - name: Install required packages
-        run: pip install ruff nbqa
+        run: pip install ruff
 
       - name: Check style of notebooks
         run: make check
