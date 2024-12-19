@@ -19,9 +19,9 @@ project:
         affiliations: UBC Geophysical Inversion Facility
         orcid: 0000-0002-0089-402X
         roles:
-          - Original creator
-          - Writing
-          - Editing
+          - Conceptualization
+          - Writing - original draft
+          - Writing - review & editing
           - Software
       - name: Lindsey Heagy
         id: lindseyheagy
@@ -40,9 +40,7 @@ project:
           - Software
       - name: Thibaut Astic
         id: thibautastic
-        affiliations: Kobold Metals
-        roles:
-          - writing
+        affiliations: kobold
       - name: Joseph Capriotti
         id : jcapriotti
         affiliations: Colorado School of Mines
