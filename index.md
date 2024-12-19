@@ -106,3 +106,10 @@ Requires moderate computational resources. Run-times may exceed several minutes 
 The computational resources required to execute this notebook exceed those provided by standard laptop computers. To execute the notebook, please deploy to a cluster computing environment.
 ```
 
+Want to Add a Tutorial?
+-----------------------
+
+Please visit the [Contributing to User Tutorials](notebooks/contributing_index.md) page to find out how you can add a tutorial.
+
+
+
