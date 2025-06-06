@@ -1,25 +1,21 @@
 Contributing to User Tutorials
 ==============================
 
-SimPEG welcomes contributions by the community to improve available tutorial materials.
+We greatly appreciate efforts made by the SimPEG community to improve available tutorial material.
+This includes:
+
+* improving the content within preexisting tutorials, and
+* adding a new tutorials
+
 However, tutorials must adhere to specific guidelines in order to ensure a high level of quality and consistency.
+Some of the things we would like to avoid are:
+
+* tutorials created for the purpose of self promotion
+* tutorials that focuss primarily on functionality that is not part of SimPEG
+* tutorials containing data-specific results, where choices in parameter values are not generally applicable
+
 For those interested in contributing to SimPEG User Tutorials, please follow the instructions provided.
 
-
-Before Creating a New Tutorial
-------------------------------
-
-```{admonition} WARNING!
-:class: danger
-Please ensure that the contents of your tutorial **DOES NOT** fall into any of the following categories:
-
-* the tutorial focusses on functionality that is not part of SimPEG
-* the amount of SimPEG functionality NOT already covered in another tutorial is insufficient
-* the tutorial focusses on a data-specific result and is not generalizable
-* the tutorial was created for the purpose of self promotion
-
-Tutorials that fall into any of these categories will not be accepted!
-```
 
 Steps for Adding a Tutorial
 ---------------------------
