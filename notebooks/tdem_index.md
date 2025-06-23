@@ -1,5 +1,8 @@
-Time-Domain Electromagnetics
-============================
+---
+authors: {}
+---
+
+# Time-Domain Electromagnetics
 
 In this chapter, we publish code comparisons and validations for time-domain electromagnetic modeling packages.
 In SimPEG, the

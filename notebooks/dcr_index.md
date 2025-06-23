@@ -1,5 +1,8 @@
-Direct Current Resistivity
-======================
+---
+authors: {}
+---
+
+# Direct Current Resistivity
 
 Direct current resistivity data are simulated using functionality within the ``SimPEG.electromagnetics.static.resistivity`` module. Here, we provide a multitude of introductory and indermediate level tutorials for forward simulation and inversion of direct current resistivity data. Links to each tutorial can be accessed below or from the left-side menu.
 

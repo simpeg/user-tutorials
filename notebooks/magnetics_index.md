@@ -1,5 +1,8 @@
-Magnetics
-=========
+---
+authors: {}
+---
+
+# Magnetics
 
 In this chapter, we publish code comparisons and validations for magnetics and magnetic gradiometry modeling packages.
 In SimPEG, the *SimPEG.potential_fields.magnetics* module is used for modeling magnetics and gradiometry data.
