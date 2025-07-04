@@ -20,7 +20,7 @@ For those interested in contributing to SimPEG User Tutorials, please follow the
 Steps for Adding a Tutorial
 ---------------------------
 
-As explained on the [SimPEG user tutorials](../index.md) landing page, the SimPEG user tutorials are a library of [Jupyter Notebooks](https://jupyter.org/) that have been published as a website using [MyST](https://mystmd.org/). To add a tutorial notebook to the project, you will need to complete the following steps:
+As explained on the [SimPEG user tutorials](../index.md) landing page, the SimPEG user tutorials are a library of [Jupyter Notebooks][jupyter.org] that have been published as a website using [MyST][mystmd.org]. To add a tutorial notebook to the project, you will need to complete the following steps:
 
 **Step 1: Building the User Tutorials Website Locally**
 
