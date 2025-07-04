@@ -48,7 +48,7 @@ To locally build and serve the website:
 the website:
 
 ```bash
-msyt start
+myst start
 ```
 
 Next, follow the instructions prompted by the command to launch the local build in your brower.
