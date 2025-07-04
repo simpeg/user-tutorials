@@ -35,6 +35,6 @@ These are provided on the [Tutorial Structure and Formatting Requirements](contr
 **Step 3: Review Process and GitHub Pull Requests**
 
 Any proposed changes to SimPEG user tutorials must be submitted for a review as a GitHub pull request.
-Please visit our [Review Process and GitHub Pull Requests](contributing/pull_request.md] page.
+Please visit our [Review Process and GitHub Pull Requests](contributing/pull_request.md) page.
 
 
