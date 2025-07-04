@@ -32,5 +32,9 @@ Instructions for creating an appropriate Python environment and building the web
 Jupyter notebooks that contain tutorials must adhere to specific structure and formatting requirements.
 These are provided on the [Tutorial Structure and Formatting Requirements](contributing/formatting.md) page.
 
-**Step 3: The Review Process**
+**Step 3: Review Process and GitHub Pull Requests**
+
+Any proposed changes to SimPEG user tutorials must be submitted for a review as a GitHub pull request.
+Please visit our [Review Process and GitHub Pull Requests](contributing/pull_request.md] page.
+
 

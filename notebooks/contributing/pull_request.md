@@ -1,5 +1,5 @@
-GitHub Pull Request and Review Process
-======================================
+Review Process and GitHub Pull Requests
+=======================================
 
 Here, we describe the pull request and review process for bring new tutorial notebooks into the SimPEG user tutorials repository.
 
