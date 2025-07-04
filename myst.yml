@@ -17,6 +17,7 @@ project:
       - name: Devin Cowan
         id: devincowan
         affiliations: ubc
+        orcid: 0000-0002-0089-402X
         roles:
           - writing
           - editing
