@@ -59,7 +59,7 @@ The following command will build the website and store the HTML files in
 a new `_build` folder:
 
 ```bash
-msyt build --html
+myst build --html
 ```
 
 ### Clean Cached Builds
