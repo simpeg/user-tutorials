@@ -113,7 +113,7 @@ become familiar with functionality explained in the [3D Forward Simulation of Gr
 Anomaly Data](fwd_gravity_anomaly_3d.ipynb) tutorial before working through this one.
 ```
 
-Finally, the contributor must provide learning objectives using a bullet list. E.g.
+Finally, we request that the contributor provide learning objectives using a bullet list. E.g.
 
 ```markdown
 **Learning Objectives:**
