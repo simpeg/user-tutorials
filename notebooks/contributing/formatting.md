@@ -29,7 +29,7 @@ authors:
 
 ### Cell 2: Tutorial Difficulty
 
-Here, we indicate whether the notebook contains introductory, intermediate or advanced content. The author is required to choose
+Here, we indicate whether the notebook contains introductory, intermediate or advanced content. The author should choose
 from one of the following [MyST admonitions](https://myst-parser.readthedocs.io/en/latest/syntax/admonitions.html), which is rendered when the webpage is built.
 
 ```
