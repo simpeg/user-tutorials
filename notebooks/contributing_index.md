@@ -12,7 +12,7 @@ Some of the things we would like to avoid are:
 
 * tutorials created for the purpose of self promotion
 * tutorials that focuss primarily on functionality that is not part of SimPEG
-* tutorials with a very narrow focus and/or application
+* tutorials with limited applicability; i.e. the focus of the tutorial is too specific
 
 If you aren't sure if your tutorial will be a good fit, please [start an issue](https://github.com/simpeg/user-tutorials/issues/new) so we can discuss it. For those interested in contributing to SimPEG User Tutorials, please follow the instructions provided.
 
