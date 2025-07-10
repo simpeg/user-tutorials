@@ -60,7 +60,7 @@ the user is already an experienced SimPEG user.
 
 ### Cell 3: Computational Requirements
 
-Here, we specify the computational requirements to run the notebook. Whereas some notebooks can be run easily on laptop computers, some notebook may need to be exported as Python files and run using cluster computing. The author is required to choose from one of the following [MyST admonitions](https://myst-parser.readthedocs.io/en/latest/syntax/admonitions.html), which is rendered when the webpage is built.
+Here, we specify the computational requirements to run the notebook. Whereas some notebooks can be run easily on laptop computers, some notebook may need to be exported as Python files and run using cluster computing. The author should choose from one of the following [MyST admonitions](https://myst-parser.readthedocs.io/en/latest/syntax/admonitions.html), which is rendered when the webpage is built.
 
 ```
 :::{admonition} Light-weight notebook
