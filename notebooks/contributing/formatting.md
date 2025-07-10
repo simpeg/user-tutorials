@@ -19,7 +19,7 @@ Every tutorial notebook requires an introduction section. The Markdown cells req
 The first cell contains the title and the author for the tutorial. It is formatted as follows.
 The title is in quotations. You will need to add yourself as an author in the `myst.yml` file in the root directory of the repository.
 
-```
+```yaml
 ---
 title: "My Notebook Title In Quotes"
 authors:
@@ -91,13 +91,13 @@ to a cluster computing environment.
 
 In this cell, the contributor must provide a set of relevant keywords. E.g.
 
-```
+```markdown
 **Keywords:** gravity inversion, sparse-norm inversion, integral formulation, tree mesh.
 ```
 
 Next, the contributor must provide a summary of the tutorial. The summary should be roughly one paragraph. If your tutorial focusses on particular functionality within SimPEG, please link to the API documentation. Also, link to tutorials you feel the reader should have already worked through. E.g. 
 
-```
+```markdown
 **Summary:** Here we invert gravity anomaly data to recover a density contrast model.
 We demonstrate two approaches for recovering a density contrast model:
 
@@ -115,7 +115,7 @@ Anomaly Data](fwd_gravity_anomaly_3d.ipynb) tutorial before working through this
 
 Finally, the contributor must provide learning objectives using a bullet list. E.g.
 
-```
+```markdown
 **Learning Objectives:**
 
 - How geophysical inversion is carried out using SimPEG.
@@ -190,7 +190,7 @@ Here, the contributor must:
 
 E.g.
 
-```
+```markdown
 ## Define the Survey
 
 Surveys within SimPEG generally require the user to create and connect three
@@ -215,7 +215,7 @@ which are to be measured. For the tutorial simulation, the receivers are located
 If something has been thoroughly explained in an introductory tutorial, you can avoid repetition by linking to that tutorial.
 However, the choice in values used in your tutorial should always be stated. E.g.
 
-```
+```markdown
 ## Assign Uncertainties
 
 Approaches for applying reasonable uncertainties to normalized voltage and apparent
