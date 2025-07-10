@@ -1,7 +1,7 @@
 Tutorial Structure and Formatting Requirements
 ==============================================
 
-To ensure quality and consistency, the [Jupyter Notebooks](https://jupyter.org/) containing tutorials must follow strict structure and formatting requirements. The contents of each notebooks must be parsed sensibly into a set of sections. Sufficient explanation and links to API documentation are required when presenting functionality. Each section within a tutorial contains a combination of [Markdown](https://www.markdownguide.org/getting-started/) and coding cells. Our notebooks use the functionality in [MyST Parser](https://myst-parser.readthedocs.io/en/latest/) to augment the contents of Markdown cells. Before moving forward, we advise the contributor to:
+To ensure quality and consistency, the [Jupyter Notebooks](https://jupyter.org/) follow a structured template. The contents of each notebooks are to be parsed sensibly into a set of sections. Sufficient explanation and links to API documentation are requested when presenting functionality. Each section within a tutorial contains a combination of [Markdown](https://www.markdownguide.org/getting-started/) and coding cells. Our notebooks use the functionality in [MyST Parser](https://myst-parser.readthedocs.io/en/latest/) to augment the contents of Markdown cells. Before moving forward, we advise the contributor to:
 
 * Be familiar with the structure and formatting that is used by most forward simulation and inversion tutorials. E.g. [3D Forward Simulation of Gravity Anomaly Data](../03-gravity/fwd_gravity_anomaly_3d.ipynb) and [3D Inversion of Gravity Anomaly Data](../03-gravity/inv_gravity_anomaly_3d.ipynb).
 
