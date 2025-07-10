@@ -31,7 +31,7 @@ Stages of a Pull Request
 
 When you are ready to submit your tutorial notebook review, you will make a 
 GitHub pull request (PR). If your pull request is not ready for a final review,
-but you require feedback, please mark it as a draft pull request. Once you
+but you would like feedback, please mark it as a draft pull request. Once you
 feel the pull request is ready for a final review, you can convert the draft PR to
 an open PR by selecting the ``Ready for review`` button at the bottom of the page.
 
