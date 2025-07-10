@@ -95,7 +95,7 @@ In this cell, the contributor must provide a set of relevant keywords. E.g.
 **Keywords:** gravity inversion, sparse-norm inversion, integral formulation, tree mesh.
 ```
 
-Next, the contributor must provide a summary of the tutorial. The summary should be roughly one paragraph. If your tutorial focusses on particular functionality within SimPEG, please link to the API documentation. Also, link to tutorials you feel the reader should have already worked through. E.g. 
+Next, the contributor should provide a summary of the tutorial. The summary should be roughly one paragraph. If your tutorial focusses on particular functionality within SimPEG, please link to the API documentation. Also, link to tutorials you feel the reader should have already worked through. E.g. 
 
 ```markdown
 **Summary:** Here we invert gravity anomaly data to recover a density contrast model.
