@@ -63,7 +63,7 @@ jobs:
 
       # Fetch the built HTML from the build job
       - name: Download HTML artifact
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           name: html-${{ github.sha }}
           path: _build/html
