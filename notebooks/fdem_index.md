@@ -16,5 +16,8 @@ Schematic illustrating the physics of the FEM method for an inductive source.
 [1D Forward Simulation for a Single Sounding](07-fdem/fwd_fdem_1d) $({\color{green}Introductory}$, ${\color{green}Lightweight})$
 <br />
 
+[Forward Simulation of 3D Airborne FDEM Data on a Tree Mesh](07-fdem/fwd_fdem_3d) $({\color{orange}Intermediate}$, ${\color{orange}Moderate})$
+<br />
+
 [1D Inversion for a Single Sounding](07-fdem/inv_fdem_1d) $({\color{orange}Intermediate}$, ${\color{green}Lightweight})$
 <br />

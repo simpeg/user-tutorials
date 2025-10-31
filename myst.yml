@@ -102,6 +102,7 @@ project:
     - file: notebooks/fdem_index.md
       children:
       - file: notebooks/07-fdem/fwd_fdem_1d.ipynb
+      - file: notebooks/07-fdem/fwd_fdem_3d.ipynb
       - file: notebooks/07-fdem/inv_fdem_1d.ipynb
     - file: notebooks/tdem_index.md
       children:
