@@ -32,7 +32,14 @@ jobs:
       - name: Print MyST version
         run: myst --version
 
-      - name: Build website as static HTML
+      - name: Build website as static HTML (for PR)
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "Building MyST website without setting BASE_URL"
+          myst build --html
+
+      - name: Build website as static HTML (for deploy)
+        if: github.event_name != 'pull_request'
         run: |
           echo "Building MyST website using BASE_URL=" $BASE_URL
           myst build --html
