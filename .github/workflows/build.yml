@@ -18,10 +18,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Setup Node
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: '20'
 
@@ -32,7 +32,14 @@ jobs:
       - name: Print MyST version
         run: myst --version
 
-      - name: Build website as static HTML
+      - name: Build website as static HTML (for PR)
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "Building MyST website without setting BASE_URL"
+          myst build --html
+
+      - name: Build website as static HTML (for deploy)
+        if: github.event_name != 'pull_request'
         run: |
           echo "Building MyST website using BASE_URL=" $BASE_URL
           myst build --html
@@ -40,9 +47,9 @@ jobs:
           BASE_URL: /${{ github.event.repository.name }}
 
       # Store the website as a build artifact so we can deploy it later
+      # or preview the website in a PR.
       - name: Upload HTML website as an artifact
-        # Only if not a pull request
-        if: success() && github.event_name != 'pull_request'
+        if: success()
         uses: actions/upload-artifact@v6
         with:
           name: html-${{ github.sha }}
@@ -59,7 +66,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       # Fetch the built HTML from the build job
       - name: Download HTML artifact
