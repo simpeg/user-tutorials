@@ -17,15 +17,15 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ env.PYTHON }}
 
       - name: Install required packages
-        run: pip install ruff nbqa
+        run: pip install ruff
 
       - name: Check style of notebooks
         run: make check
