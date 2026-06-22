@@ -109,6 +109,11 @@ project:
       - file: notebooks/08-tdem/fwd_tdem_fundamentals.ipynb
       - file: notebooks/08-tdem/fwd_utem_3d.ipynb
       - file: notebooks/08-tdem/inv_tdem_1d.ipynb
+    - file: notebooks/nsem_index.md
+      children:
+      - file: notebooks/09-nsem/fwd_nsem_1d.ipynb
+      - file: notebooks/09-nsem/fwd_nsem_2d.ipynb
+      - file: notebooks/09-nsem/fwd_nsem_3d.ipynb
     - title: Joint Inversion
       children:
         - file: notebooks/11-joint-inversion/plot_inv_3_cross_gradient_pf.ipynb
