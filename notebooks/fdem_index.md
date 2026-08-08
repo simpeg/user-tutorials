@@ -1,5 +1,8 @@
-Frequency-Domain Electromagnetics
-==============================
+---
+authors: {}
+---
+
+# Frequency-Domain Electromagnetics
 
 In this chapter, we publish code comparisons and validations for frequency-domain electromagnetic modeling packages.
 In SimPEG, the *SimPEG.electromagnetics.frequency_domain* module is used for modeling frequency-domain data.

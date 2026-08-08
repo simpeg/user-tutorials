@@ -1,5 +1,9 @@
-Induced Polarization
-======================
+---
+authors: {}
+---
+
+# Induced Polarization
+
 
 Induced polarization data are simulated using functionality within the ``SimPEG.electromagnetics.static.induced_polarization`` module. Here, we provide a multitude of introductory and indermediate level tutorials for forward simulation and inversion of induced polarization data. Links to each tutorial can be accessed below or from the left-side menu.
 
